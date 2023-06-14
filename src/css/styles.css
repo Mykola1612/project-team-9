@@ -17,6 +17,9 @@
 @import url('./reviews.css');
 @import url('./subscribe.css');
 @import url('./footer.css');
+@import url('./modal_buy_now.css');
+@import url('./modal_leave_a_review.css');
+@import url('./modal_explore_chocolate.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
