@@ -1,0 +1,173 @@
+.our_products_section {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 72px;
+}
+
+.op_header {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.op_header_span {
+    color: rgba(253, 146, 34, 1);
+}
+
+.op_swiper {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.3s ease-in-out;
+    gap: 18px;
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .swiper-slide {
+        width: 100vw;
+    }
+}
+
+.op_choco_card {
+    padding: 32px 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.op_choco_card_desription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.op_choco_card_tittle {
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.op_choco_card_prgrph {
+    font-family: var(--main-font-family);
+    color: rgba(17, 17, 17, 0.7);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    margin-bottom: 18px;
+}
+
+.op_choco_card_price {
+    box-sizing: border-box;
+    width: 94px;
+    height: 33px;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: var(--main-font-family);
+    color: var(--main-text-color);
+}
+
+.op_swiper_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    list-style: none;
+    list-style-type: none;
+    padding: 0px;
+    gap: 13px;
+}
+
+.op_swiper_buttons button::marker,
+.op_swiper_buttons button::-webkit-inner-spin-button {
+    display: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.op_swiper_buttons button {
+    box-sizing: border-box;
+    width: 13px;
+    height: 13px;
+    background: rgba(17, 17, 17, 0.1);
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    list-style: none;
+    list-style-type: none;
+}
+
+.op_swiper_buttons button.active {
+    width: 28px;
+    background: #FD9222;
+    list-style-type: none;
+}
+
+.op_swiper_buttons li {
+    list-style: none;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 375px) {
+
+    .op_choco_card {
+        width: 335px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .op_header {
+        margin-bottom: 50px;
+    }
+
+    .op_choco_card {
+        width: 270px;
+    }
+
+    .op_swiper {
+        margin-bottom: 32px;
+    }
+
+    .our_products_section {
+        padding-bottom: 100px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    .our_products_section {
+        padding-bottom: 128px;
+    }
+}
