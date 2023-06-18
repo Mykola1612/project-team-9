@@ -21,12 +21,17 @@
 @import url('./modal_explore_chocolate.css');
 
 :root {
+  --primary_background_color: #1e1823;
+  --primary_text_color: #ffffff;
+  --accent_color: #fd9222;
+  --secondary_color: #111111;
+
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
 
-  color: #111111;
+  color: var(--secondary_color);
   background-color: #e2e2e2;
 
   font-synthesis: none;
