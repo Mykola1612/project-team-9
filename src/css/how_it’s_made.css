@@ -1,0 +1,72 @@
+.how-its-made{
+    /* background-color: #E2E2E2; */
+}
+.title-text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #111111; 
+    margin-bottom: 32px;
+}
+
+.title-text-yellow {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: #FD9222;
+    margin-left: 5px;
+}
+.how-its-made-player-wrapper {
+  max-width: 335px;
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+.how-its-made-player {
+    border-radius: 15px;
+    width: 100%;
+}
+
+.production-steps-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.production-steps {
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.step-item{
+    margin-left: 14px;
+    margin-bottom:18px ;
+}
+
+.step {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: #111111;
+    max-width: 291px;  
+}
+.step-item:last-child {
+    margin-bottom: 0;
+}
