@@ -1,0 +1,209 @@
+.reviews_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.reviews_box_list{
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 32px;
+}
+
+.reviews_title{
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        padding-bottom: 74px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+}
+
+.reviews_text_decoration{
+    color: #FD9222;
+}
+
+
+
+.reviews_list{
+    max-width: 333px;
+    min-height: 198px;
+    background: #FFFFFF;
+        border: 1px solid rgba(17, 17, 17, 0.1);
+        box-shadow: 0px 9.04932px 26.5717px rgba(215, 228, 249, 0.25);
+        border-radius: 15px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+        min-width: 0;
+        
+        
+        
+}
+.reviews_slider{
+    min-width: 0;
+}
+
+.reviews_list_title{
+    margin-top: 56px;
+    margin-bottom: 24px;
+    font-weight: 600;
+        font-size: 18px;
+        line-height: 1.33;
+        
+}
+
+.reviews_list_reviews{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        margin-left: 18px;
+        margin-right: 18px;
+        color: rgba(17, 17, 17, 0.7);
+        padding-bottom: 42px;
+        
+        
+}
+
+.reviews_photo{
+    
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50% , -50%);
+    
+   
+    
+}
+.reviews_pointer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.reviews_btn{
+    border: 1px solid #FD9222;
+        border-radius: 100px;
+        width: 165px;
+            height: 41px;
+            margin: 0 auto;
+            
+            
+}
+.reviews_btn:hover {
+    background: #FD9222;
+}
+
+
+.reviews_list_nb, .reviews_list_ok{
+    /* display: none; */
+}
+
+/* <=================================================SLIDER */
+
+.reviews_slider .slick-arrow{
+position: absolute;
+top: 50%;
+z-index: 10;
+font-size: 0;
+}
+.reviews_slider .slick-arrow.slick-prev {
+    left: 0;
+}
+.reviews_slider .slick-arrow.slick-arrow.slick-next {
+    top: 0;
+}
+/* Слайдер */
+.slick-slider {}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized {}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted {}
+
+/* Ограничивающая оболочка */
+.slick-list {
+    
+    
+}
+
+/* Лента слайдов */
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Слайд */
+.slick-slide {}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {}
+
+/* Слайд основной */
+.slick-slide.slick-current {}
+
+/* Слайд по центру */
+.slick-slide.slick-center {}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned {}
+
+/* Стрелка */
+.slick-arrow {}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {}
+
+/* Точки (булиты) */
+.reviews_slider .slick-dots {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.slick-dots li {}
+
+/* Активная точка */
+.slick-dots li.slick-active {}
+
+/* Элемент точки */
+.reviews_slider .slick-dots button {
+    font-size: 0;
+    width: 13px;
+    height: 13px;
+    background: rgba(17, 17, 17, 0.1);
+    border-radius: 50%;
+    border-color: transparent;
+}
+.reviews_slider .slick-dots li.slick-active button {
+    
+}
+/* <=====================================================MAX-WIDTH */
+
+
+
+@media screen and (min-width: 768px) {
+   
+
+
+}
+
+@media screen and (min-width: 1200px) {
+   
+
+
+}
