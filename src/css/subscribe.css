@@ -1,0 +1,274 @@
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media screen and (min-width: 375px) {
+  .container {
+    min-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+.subscribe {
+  padding-top: 62px;
+  padding-bottom: 63px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/Subcribe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 375px),
+  screen and (min-resolution: 192dpi) and (max-width: 375px),
+  screen and (min-resolution: 2dppx) and (max-width: 375px) {
+  .subscribe {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/Subcribe@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.container-subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 24px;
+}
+.title_section_subscribe {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 291px;
+}
+.text_section_subscribe {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  max-width: 326px;
+}
+.btn_section_subscribe {
+  min-width: 128px;
+  height: 41px;
+  background: #fd9222;
+  border-radius: 100px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  border: none;
+  margin: 0px;
+}
+.btn_section_subscribe:hover,
+.btn_section_subscribe:focus {
+  background: #fcf1e0;
+  color: #fd9222;
+}
+/* ======================TABLET================ */
+@media screen and (min-width: 429px) {
+  .subscribe {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/Subcribe-tablet.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 429px),
+  screen and (min-resolution: 192dpi) and (min-width: 429px),
+  screen and (min-resolution: 2dppx) and (min-width: 429px) {
+  .subscribe {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/Subcribe-tablet@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+  .title_section_subscribe {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+  .text_section_subscribe {
+    max-width: 467px;
+    height: 72px;
+  }
+  .btn_section_subscribe {
+    font-size: 18px;
+    line-height: 1.22;
+    min-width: 172px;
+    height: 50px;
+  }
+}
+/* ======================TABLET - END================ */
+/* ======================DESCTOP================ */
+@media screen and (min-width: 769px) {
+  .subscribe {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/Subcribe_desctop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
+  screen and (min-resolution: 192dpi) and (min-width: 769px),
+  screen and (min-resolution: 2dppx) and (min-width: 769px) {
+  .subscribe {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url(../images/Subcribe_desctop@2x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
+
+/* ======================DESCTOP-END================ */
+/* ======================BACKDROP================ */
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal_subscribe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* opacity: 1; */
+  visibility: visible;
+}
+.wrapper_modal_subscribe {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 311px;
+  /* min-height: 350px; */
+  background: #fafafa;
+  border-radius: 15px;
+}
+.modal_subscribe_btn_close {
+  position: absolute;
+  left: 273px;
+  top: 15px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background: transparent;
+  border: none;
+}
+.container_modal_subscribe_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  row-gap: 24px;
+}
+.container_modal_subscribe_img {
+  position: relative;
+  background: url(../images/modal_img.jpg);
+  border-radius: 15px 15px 0 0;
+  max-width: 311px;
+  height: 169px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.modal_subscribe_title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+  width: 263px;
+}
+.modal_subscribe_title_color {
+  color: #fd9222;
+}
+.modal_subscribe_input::placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+.container_input_btn_modal_subscribe {
+  position: relative;
+  width: 263px;
+}
+.modal_subscribe_input {
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  filter: drop-shadow(0px 5.44492px 5.44492px rgba(0, 0, 0, 0.03));
+  border-radius: 25px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+  width: 100%;
+  border: none;
+}
+.btn_submit_modal_subscribe {
+  background: #fd9222;
+  border-radius: 100px;
+  padding: 14px 22px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  padding-top: 14px;
+  padding-left: 14px;
+  position: absolute;
+  left: 174px;
+}
