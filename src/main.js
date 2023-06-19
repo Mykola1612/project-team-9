@@ -5,4 +5,4 @@ import '/js/modal-pop-up2_explore.js';
 import '/js/review/script.js';
 import '/js/review/slick.min.js';
 import '/js/swiper.js';
-import 'js/slick.min.js';
+import '/js/slick.min.js';
