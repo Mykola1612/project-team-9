@@ -24,7 +24,7 @@
   padding-top: 62px;
   padding-bottom: 63px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/Subcribe.jpg);
+    url(../images/subscribe/Subcribe.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,7 +34,7 @@
   screen and (min-resolution: 2dppx) and (max-width: 375px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../images/Subcribe@2x.jpg);
+      url(../images/subscribe/Subcribe@2x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -94,7 +94,7 @@
 @media screen and (min-width: 429px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../images/Subcribe-tablet.jpg);
+      url(../images/subscribe/Subcribe-tablet.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -106,7 +106,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 429px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../images/Subcribe-tablet@2x.jpg);
+      url(../images/subscribe/Subcribe-tablet@2x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -137,7 +137,7 @@
 @media screen and (min-width: 769px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../images/Subcribe_desctop.jpg);
+      url(../images/subscribe/Subcribe_desctop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 769px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-      url(../images/Subcribe_desctop@2x.jpg);
+      url(../images/subscribe/Subcribe_desctop@2x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -208,7 +208,7 @@
 }
 .container_modal_subscribe_img {
   position: relative;
-  background: url(../images/modal_img.jpg);
+  background: url(../images/subscribe/modal_img.jpg);
   border-radius: 15px 15px 0 0;
   max-width: 311px;
   height: 169px;
