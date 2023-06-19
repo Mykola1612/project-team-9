@@ -1,5 +1,5 @@
 
-.container {
+.how-its-made-container {
   width: 100%;
   padding: 0 16px;
   align-items: center;
@@ -7,12 +7,12 @@
 
 
 
-.how-its-made{
-  background-color: #E2E2E2;
+.how-its-made {
+
+  padding-bottom: 72px;
 }
 
 .title-text {
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -24,7 +24,6 @@
 }
 
 .title-text-yellow {
-  font-family: var(--secondary-font-family-family);
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
@@ -49,7 +48,6 @@ margin-bottom: 20px;
 }
 
 .production-steps-title {
-  font-family: var(--secondary-font-family-family);
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
@@ -76,9 +74,6 @@ padding-right: 14px;
 }
 
 .step {
-  font-family: var(--secondary-font-family-family);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.02em;
   color: #111111;
@@ -102,7 +97,6 @@ padding-right: 14px;
 }
 
 .title-text {
-  font-family: 'Montserrat';
   font-weight: 600;
   font-size: 24px;
   line-height: 28px;
@@ -114,7 +108,6 @@ padding-right: 14px;
 }
 
 .title-text-yellow {
-font-family: var(--secondary-font-family-family);
 font-weight: 600;
 font-size: 24px;
 line-height: 28px;
@@ -133,7 +126,6 @@ margin-right: auto;
 margin-bottom: 20px;
 }
 .production-steps-title {
-font-family: var(--secondary-font-family-family);
 font-weight: 600;
 font-size: 18px;
 line-height: 24px;
@@ -153,9 +145,6 @@ padding-right: 32px;
 padding-bottom: 32px;
 }
 .step {
-  font-family: var(--secondary-font-family-family);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.02em;
   color: #111111;
@@ -186,7 +175,6 @@ padding-bottom: 32px;
 }
 
 .title-text-yellow {
-font-family: var(--secondary-font-family-family);
 font-weight: 600;
 font-size: 24px;
 line-height: 28px;
@@ -207,7 +195,6 @@ width: 600px;
 height: 400px;
 }
 .production-steps-title {
-font-family: var(--secondary-font-family-family);
 font-weight: 600;
 font-size: 18px;
 line-height: 24px;
@@ -229,9 +216,6 @@ max-height: 400px;
 }
 
 .step {
-  font-family: var(--secondary-font-family-family);
-  font-weight: 400;
-  font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.02em;
   color: #111111;
