@@ -58,7 +58,7 @@ margin-bottom: 20px;
 .step-item{
     margin-left: 14px;
     margin-bottom:18px;
-    display: list-item;
+    list-style-type: disc;
 }
 
 .step {
