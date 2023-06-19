@@ -1,5 +1,4 @@
 .how-its-made{
-    /* background-color: #E2E2E2; */
     padding-bottom: 72px;
 }
 .title-text {
@@ -24,11 +23,11 @@
     margin-left: 5px;
 }
 .how-its-made-player-wrapper {
-  max-width: 335px;
-  display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 20px;
+    max-width: 335px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 .how-its-made-player {
     border-radius: 15px;
