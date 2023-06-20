@@ -85,7 +85,16 @@
       padding: 28px 56px 71px 56px;
     }
       }
-  
+  @media screen and (min-width:768px) and (max-width:1199px) {
+    .order_milkchoko {order: 0;
+    }
+    .order_sweetchoco {order: 1;
+    }
+    .order_milk {order: 2;
+    }
+    .order_nuts {order: 3;
+    }
+  }
       @media screen and (min-width:1200px) {
         .section-components {
           padding: 128px 0;
