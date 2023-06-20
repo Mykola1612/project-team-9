@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <main class="main-content">
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Order some chocolate</h1>
+          <button class="modal-open-btn" type="button" data-modal-open>
+            Order Service
+          </button>
+        </div>
+      </section>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="order-modal-mobile">
+          <button type="button" class="order-close" data-modal-close>
+            <svg class="close-svg" width="16" height="16" aria-label="close">
+              <use href="./images/icons.svg#close"></use>
+            </svg>
+          </button>
+          <a href="#" class="modal-logo"><span class="logo-orange">BUY</span> NOW</a>
+          <div class="chocolate-choice">
+            <ul class="company-product-list">
+              <li class="company-product-1">
+                <div class="chocolate-img-1">
+                  <button type="button" class="choc-btn">100g</button>
+                </div>
+              </li>
+              <li class="company-product-2">
+                <div class="chocolate-img-2">
+                  <button type="button" class="choc-btn">200g</button>
+                </div>
+              </li>
+              <li class="company-product-3">
+                <div class="chocolate-img-3">
+                  <button type="button" class="choc-btn">300g</button>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="personal-information">
+            <p class="input-p">Personal information</p>
+            <input id="user_name" type="text" name="user_name" class="name-input" minlength="3" required pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" placeholder="Name">
+            <input id="user_surname" type="text" name="user_surname" class="surname-input" minlength="3" required pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$" placeholder="Surname">
+          </div>
+          <div class="email-input-form">
+            <p class="input-p">Email</p>
+            <input id="user-email" type="email" class="email-input" name="Email" required placeholder="Enter your email">
+          </div>
+          <div class="phone-input-form">
+            <p class="input-p">Phone number</p>
+            <input id="user-phone" type="tel" class="phone-input" name="Phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" title="XXX-XXX-XX-XX" placeholder="XXX-XXX-XX-XX">
+          </div>
+          <div class="payment-form">
+            <p class="input-p">Card number</p>
+            <input name="card-number" id="user-card" type="text" class="card-input" required pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}" title="XXXX-XXXX-XXXX-XXXX" placeholder="XXXX-XXXX-XXXX-XXXX">
+          </div>
+          <div class="comment-form">
+            <p class="input-p">Your comments</p>
+            <textarea name="user-comment" id="user-comment" class="comment-input" placeholder="Text input"></textarea>
+          </div>
+          <div class="submit">
+            <button type="button" class="submit-btn" data-modal-close>Submit</button>
+          </div>
+        </div>
+      </div>
+
+    <script src="./js/modal.js"></script>
+  </body>
+</html>
