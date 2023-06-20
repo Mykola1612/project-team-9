@@ -172,19 +172,27 @@
   pointer-events: none;
 }
 .modal_subscribe {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  /* opacity: 1; */
+  visibility: hidden;
+  pointer-events: none;
+}
+.modal_subscribe.is-open {
+  opacity: 1;
   visibility: visible;
+  pointer-events: auto;
+  background-color: transparent;
+}
+.modal_close_icon_subscribe {stroke: var(--primary_text_color);
 }
 .wrapper_modal_subscribe {
   position: absolute;
-  top: 10px;
+  top: 50%;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, -50%);
   width: 311px;
   /* min-height: 350px; */
   background: #fafafa;
