@@ -20,7 +20,7 @@
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <title>Simply chocolate</title>
     <script type="module" crossorigin src="/project-team-9/assets/index-e09e9fa2.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-8496d7ec.css">
+    <link rel="stylesheet" href="/project-team-9/assets/index-56cd73c0.css">
   </head>
   <body>
     <header>
@@ -572,7 +572,8 @@
         </ul>
     </div>
 </section>
-      <section class="top_sellers_section container">
+      <!-- TOP SELLERS -->
+<section class="top_sellers_section container">
   <h2 class="top_sellers_title">
     <span class="top_sellers_black_title_part">TOP</span> SELLERS
   </h2>
@@ -602,8 +603,11 @@
           class="top_sellers_img"
           src="/project-team-9/assets/choco_desktop_1-cbf11c4f.jpg"
           alt="Choco with nuts"
+          width="335px"
         />
       </picture>
+
+      <!-- Description -->
       <p class="top_sellers_desc">
         Crazy enough chocolate originates from a bean just like the coffee bean
         called Cacao. Cacao has been around for thousands of years and was first
@@ -611,49 +615,52 @@
       </p>
     </li>
 
-    <!-- Second Image -->
-    <li class="top_sellers_list_item">
-      <picture>
-        <!-- phone -->
-        <source
-          srcset="/project-team-9/assets/choco_phone_2-b4ae7acc.jpg 1x, /project-team-9/assets/choco_phone_2@2x-5b35ed37.jpg 2x"
-          media="(min-width: 375px)"
-        />
+    <li
+      class="top_sellers_list_item top_sellers_list_second_item_width_specific"
+    >
+      <div class="top_sellers_pic_flex_box">
+        <!-- Second Image -->
+        <picture>
+          <!-- phone -->
+          <source
+            srcset="/project-team-9/assets/choco_phone_2-b4ae7acc.jpg 1x, /project-team-9/assets/choco_phone_2@2x-5b35ed37.jpg 2x"
+            media="(min-width: 375px)"
+          />
 
-        <!-- tablet -->
-        <source
-          srcset="/project-team-9/assets/choco_tablet_2-ea448779.jpg 1x, /project-team-9/assets/choco_tablet_2@2x-8b1f69fd.jpg 2x"
-          media="(min-width: 768px)"
-        />
+          <!-- tablet -->
+          <source
+            srcset="/project-team-9/assets/choco_tablet_2-ea448779.jpg 1x, /project-team-9/assets/choco_tablet_2@2x-8b1f69fd.jpg 2x"
+            media="(min-width: 768px)"
+          />
 
-        <!-- desktop -->
-        <source
-          srcset="/project-team-9/assets/choco_desktop_2-9b664c6c.jpg 1x, /project-team-9/assets/choco_desktop_2@2x-599578cc.jpg 2x"
-          media="(min-width: 1200px)"
-        />
-        <img
-          class="top_sellers_img"
-          src="/project-team-9/assets/choco_desktop_2-9b664c6c.jpg"
-          alt="Choco with fruits"
-        />
-      </picture>
+          <!-- desktop -->
+          <source
+            srcset="/project-team-9/assets/choco_desktop_2-9b664c6c.jpg 1x, /project-team-9/assets/choco_desktop_2@2x-599578cc.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="top_sellers_img"
+            src="/project-team-9/assets/choco_desktop_2-9b664c6c.jpg"
+            alt="Choco with fruits"
+            width="335px"
+          />
+        </picture>
+
+        <!-- Third Image -->
+        <picture class="top_sellers_third_img">
+          <!-- desktop -->
+          <source
+            srcset="/project-team-9/assets/choco_desktop_3-c2ed87cf.jpg 1x, /project-team-9/assets/choco_desktop_3@2x-85e094ee.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="top_sellers_img"
+            src="/project-team-9/assets/choco_desktop_3-c2ed87cf.jpg"
+            alt="Dark chocolate"
+          />
+        </picture>
+      </div>
       <button class="top_sellers_button" type="button">Buy now</button>
-    </li>
-
-    <!-- Third Image -->
-    <li class="top_sellers_list_item top_sellers_third_img">
-      <picture>
-        <!-- desktop -->
-        <source
-          srcset="/project-team-9/assets/choco_desktop_3-c2ed87cf.jpg 1x, /project-team-9/assets/choco_desktop_3@2x-85e094ee.jpg 2x"
-          media="(min-width: 1200px)"
-        />
-        <img
-          class="top_sellers_img"
-          src="/project-team-9/assets/choco_desktop_3-c2ed87cf.jpg"
-          alt="Dark chocolate"
-        />
-      </picture>
     </li>
   </ul>
 </section>
