@@ -18,8 +18,8 @@
     />
     
     <title>Simply chocolate</title>
-    <script type="module" crossorigin src="/project-team-9/assets/index-502856ee.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-a6d5bbf2.css">
+    <script type="module" crossorigin src="/project-team-9/assets/index-eec1f9f8.js"></script>
+    <link rel="stylesheet" href="/project-team-9/assets/index-6c865cea.css">
   </head>
   <body>
     
@@ -471,7 +471,108 @@
   </div>
 </div>
 
-      
+      <div class="backdrop is-hidden" data-modal>
+  <div class="order-modal-mobile">
+    <button type="button" class="order-close" data-modal-close>
+      <svg class="close-svg" width="16" height="16" aria-label="close">
+        <use href="/project-team-9/assets/icons-a4a43d71.svg#close"></use>
+      </svg>
+    </button>
+    <a href="#" class="modal-logo"><span class="logo-orange">BUY</span> NOW</a>
+    <div class="chocolate-choice">
+      <ul class="company-product-list">
+        <li class="company-product-1">
+          <div class="chocolate-img-1">
+            <button type="button" class="choc-btn">100g</button>
+          </div>
+        </li>
+        <li class="company-product-2">
+          <div class="chocolate-img-2">
+            <button type="button" class="choc-btn">200g</button>
+          </div>
+        </li>
+        <li class="company-product-3">
+          <div class="chocolate-img-3">
+            <button type="button" class="choc-btn">300g</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="personal-information">
+      <p class="input-p">Personal information</p>
+      <input
+        id="user_name"
+        type="text"
+        name="user_name"
+        class="name-input"
+        minlength="3"
+        required
+        pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+        placeholder="Name"
+      />
+      <input
+        id="user_surname"
+        type="text"
+        name="user_surname"
+        class="surname-input"
+        minlength="3"
+        required
+        pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+        placeholder="Surname"
+      />
+    </div>
+    <div class="email-input-form">
+      <p class="input-p">Email</p>
+      <input
+        id="user-email"
+        type="email"
+        class="email-input"
+        name="Email"
+        required
+        placeholder="Enter your email"
+      />
+    </div>
+    <div class="phone-input-form">
+      <p class="input-p">Phone number</p>
+      <input
+        id="user-phone"
+        type="tel"
+        class="phone-input"
+        name="Phone"
+        required
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="XXX-XXX-XX-XX"
+        placeholder="XXX-XXX-XX-XX"
+      />
+    </div>
+    <div class="payment-form">
+      <p class="input-p">Card number</p>
+      <input
+        name="card-number"
+        id="user-card"
+        type="text"
+        class="card-input"
+        required
+        pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
+        title="XXXX-XXXX-XXXX-XXXX"
+        placeholder="XXXX-XXXX-XXXX-XXXX"
+      />
+    </div>
+    <div class="comment-form">
+      <p class="input-p">Your comments</p>
+      <textarea
+        name="user-comment"
+        id="user-comment"
+        class="comment-input"
+        placeholder="Text input"
+      ></textarea>
+    </div>
+    <div class="submit">
+      <button type="button" class="submit-btn" data-modal-close>Submit</button>
+    </div>
+  </div>
+</div>
+
       
       
     </main>
