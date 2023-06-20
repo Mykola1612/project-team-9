@@ -1,12 +1,41 @@
+.op_container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 320px) {
+    .op_container {
+        max-width: 280px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .op_container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .op_container {
+        max-width: 1200px;
+    }
+}
+
 .our_products_section {
     display: flex;
     justify-content: center;
+    padding-top: 72px;
     padding-bottom: 72px;
 }
 
 .op_header {
-    font-family: var(--main-font-family);
-    color: var(--main-text-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary_color);
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
@@ -26,20 +55,27 @@
     margin-bottom: 20px;
 }
 
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
 .swiper-wrapper {
     display: flex;
     flex-direction: row;
     transition: transform 0.3s ease-in-out;
-    gap: 18px;
 }
 
 .swiper-slide {
     flex-shrink: 0;
+    width: auto;
+    height: auto;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 767px) {
     .swiper-slide {
-        width: 100vw;
+        width: 100%;
+        margin-right: 0;
     }
 }
 
@@ -63,8 +99,8 @@
 }
 
 .op_choco_card_tittle {
-    font-family: var(--main-font-family);
-    color: var(--main-text-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary_color);
     font-weight: 600;
     font-size: 18px;
     line-height: 24px;
@@ -74,7 +110,7 @@
 }
 
 .op_choco_card_prgrph {
-    font-family: var(--main-font-family);
+    font-family: 'Montserrat', sans-serif;
     color: rgba(17, 17, 17, 0.7);
     font-weight: 400;
     font-size: 12px;
@@ -93,8 +129,8 @@
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    font-family: var(--main-font-family);
-    color: var(--main-text-color);
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary_color);
 }
 
 .op_swiper_list {
@@ -161,13 +197,19 @@
     }
 
     .our_products_section {
+        padding-top: 100px;
         padding-bottom: 100px;
+    }
+
+    .swiper-wrapper {
+        gap: 18px;
     }
 
 }
 
 @media screen and (min-width: 1200px) {
     .our_products_section {
+        padding-top: 128px;
         padding-bottom: 128px;
     }
 }

@@ -1,0 +1,111 @@
+/* PHONE */
+.top_sellers_section {
+    flex-direction: column;
+    padding-bottom: 72px;
+}
+
+.top_sellers_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: var(--secondary_color);
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.top_sellers_black_title_part {
+    color: var(--accent_color);
+}
+
+.top_sellers_list_item {
+    margin-bottom: 32px;
+}
+
+.top_sellers_img {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    max-height: 464px;
+}
+
+.top_sellers_third_img {
+    display: none;
+}
+
+.top_sellers_desc {
+    letter-spacing: -0.02em;
+}
+
+.top_sellers_button {
+    width: 120px;
+    height: 41px;
+    background: var(--accent_color);
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.top_sellers_button:hover,
+.top_sellers_button:focus {
+    background-color: var();
+    background: #FCF1E0;
+    color: var(--accent_color);
+}
+
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .top_sellers_list {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 16px;
+    }
+
+    .top_sellers_list_item {
+        max-width: 344px;
+    }
+
+    .top_sellers_img {
+        width: 344px;
+    }
+
+    .top_sellers_button {
+        margin-right: 0;
+    }
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
+    .top_sellers_list {}
+
+    .top_sellers_img {
+        width: 368px;
+    }
+
+    .top_sellers_third_img {
+        display: block;
+    }
+
+    .top_sellers_desc {
+        position: fixed;
+        max-width: 408px;
+    }
+
+    .top_sellers_pic_flex_box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 16px;
+    }
+
+    .top_sellers_list_second_item_width_specific {
+        max-width: 752px;
+    }
+}
