@@ -7,6 +7,9 @@
 }
 
 .reviews_box_list{
+    display: flex;
+    gap: 16px;
+    width: 335px;
     justify-content: center;
     display: block;
     margin: 0 auto;
@@ -40,6 +43,8 @@
         text-align: center;
         position: relative;
         min-width: 0;
+        margin-left: 8px;
+        margin-right: 8px;
         
         
         
@@ -58,7 +63,7 @@
 }
 
 .reviews_list_reviews{
-    font-weight: 400;
+    
         font-size: 14px;
         line-height: 1.28;
         margin-left: 18px;
@@ -129,7 +134,7 @@ font-size: 0;
 
 /* Ограничивающая оболочка */
 .slick-list {
-    
+    overflow: hidden;
     
 }
 
@@ -137,6 +142,7 @@ font-size: 0;
 .slick-track {
     display: flex;
     align-items: flex-start;
+    
 }
 
 /* Слайд */
@@ -197,13 +203,34 @@ font-size: 0;
 
 
 @media screen and (min-width: 768px) {
-   
 
+.reviews_box_list {
+    
+    width: 704px;
+    
+}
+.reviews_list {
+    width: 344px;
+}
 
 }
 
 @media screen and (min-width: 1200px) {
    
+.reviews_box_list {
 
+        width: 1136px;
+
+    }
+
+.reviews_list {
+    max-width: 360px;
+    
+    margin-left: 14px;
+    margin-right: 14px;
+
+
+
+}
 
 }
