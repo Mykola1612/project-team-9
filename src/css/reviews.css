@@ -9,11 +9,11 @@
 .reviews_box_list{
     display: flex;
     gap: 16px;
-    width: 335px;
+    
     justify-content: center;
     display: block;
     margin: 0 auto;
-    padding-bottom: 32px;
+    padding-bottom: 20px;
 }
 
 .reviews_title{
@@ -27,13 +27,13 @@
 }
 
 .reviews_text_decoration{
-    color: #FD9222;
+    color: var(--accent_color);
 }
 
 
 
 .reviews_list{
-    max-width: 333px;
+    width: 100%;
     min-height: 198px;
     background: #FFFFFF;
         border: 1px solid rgba(17, 17, 17, 0.1);
@@ -43,8 +43,7 @@
         text-align: center;
         position: relative;
         min-width: 0;
-        margin-left: 8px;
-        margin-right: 8px;
+        
         
         
         
@@ -74,7 +73,7 @@
         
 }
 
-.reviews_photo{
+.reviews_photo {
     
     position: absolute;
     top: 0;
@@ -82,7 +81,6 @@
     transform: translate(50% , -50%);
     
    
-    
 }
 .reviews_pointer{
     display: flex;
@@ -92,16 +90,20 @@
 
 
 .reviews_btn{
-    border: 1px solid #FD9222;
+    border: 1px solid var(--accent_color);
         border-radius: 100px;
         width: 165px;
             height: 41px;
             margin: 0 auto;
+            margin-bottom: 72px;
+            font-weight: 600;
+                font-size: 14px;
+                line-height: 1.21px;
             
             
 }
 .reviews_btn:hover {
-    background: #FD9222;
+    background: var(--accent_color);
 }
 
 
@@ -111,93 +113,51 @@
 
 /* <=================================================SLIDER */
 
-.reviews_slider .slick-arrow{
-position: absolute;
-top: 50%;
-z-index: 10;
-font-size: 0;
-}
-.reviews_slider .slick-arrow.slick-prev {
-    left: 0;
-}
-.reviews_slider .slick-arrow.slick-arrow.slick-next {
-    top: 0;
-}
-/* Слайдер */
-.slick-slider {}
 
-/* Слайдер запущен */
-.slick-slider.slick-initialized {}
 
-/* Слайдер с точками */
-.slick-slider.slick-dotted {}
 
-/* Ограничивающая оболочка */
-.slick-list {
-    overflow: hidden;
-    
-}
 
-/* Лента слайдов */
-.slick-track {
-    display: flex;
-    align-items: flex-start;
-    
-}
 
-/* Слайд */
-.slick-slide {}
-
-/* Слайд активный (показывается) */
-.slick-slide.slick-active {}
-
-/* Слайд основной */
-.slick-slide.slick-current {}
-
-/* Слайд по центру */
-.slick-slide.slick-center {}
-
-/* Клонированный слайд */
-.slick-slide.slick-cloned {}
-
-/* Стрелка */
-.slick-arrow {}
-
-/* Стрелка влево */
-.slick-arrow.slick-prev {}
-
-/* Стрелка вправо */
-.slick-arrow.slick-next {}
-
-/* Стрелка не активная */
-.slick-arrow.slick-disabled {}
 
 /* Точки (булиты) */
-.reviews_slider .slick-dots {
+.reviews_slider_list{
     display: flex;
     gap: 13px;
     align-items: center;
     justify-content: center;
     list-style: none;
+    padding-bottom: 32px;
 }
 
-.slick-dots li {}
 
-/* Активная точка */
-.slick-dots li.slick-active {}
+
 
 /* Элемент точки */
-.reviews_slider .slick-dots button {
+.reviews_slick_dots {
     font-size: 0;
     width: 13px;
     height: 13px;
     background: rgba(17, 17, 17, 0.1);
     border-radius: 50%;
     border-color: transparent;
+    cursor: pointer;
 }
-.reviews_slider .slick-dots li.slick-active button {
+
+.reviews_slick_dots:hover {
+    background: var(--accent_color);
+    width: 28px;
+    height: 13px;
+    border-radius: 100px;
+    box-sizing: border-box;
+    border: none;
+}
     
+
+.reviews_list_nb, .reviews_list_ok, .reviews_list_ns, .reviews_list_ds, .reviews_list_it{
+display: none;
 }
+
+
 /* <=====================================================MAX-WIDTH */
 
 
@@ -207,10 +167,36 @@ font-size: 0;
 .reviews_box_list {
     
     width: 704px;
-    
+    display: flex;
+        gap: 16px;
+        padding-bottom: 31px;
 }
 .reviews_list {
     width: 344px;
+}
+
+.reviews_list_nb {
+    display: block;
+}
+
+
+
+.reviews_title{
+    font-size: 24px;
+        line-height: 1.16;
+        padding-bottom: 91px;
+}
+
+.reviews_slider_list{
+    padding-bottom: 50px;
+}
+
+.reviews_btn{
+    font-size: 18px;
+        line-height: 1.22;
+    margin-bottom: 100px;
+    width: 222px;
+        height: 50px;
 }
 
 }
@@ -224,13 +210,20 @@ font-size: 0;
     }
 
 .reviews_list {
-    max-width: 360px;
+    width: 360px;
     
-    margin-left: 14px;
-    margin-right: 14px;
 
 
 
 }
+.reviews_list_ok{
+    display: block;
+}
+.reviews_box_list{
+    gap: 28px;
+}
 
+.reviews_btn {
+    margin-bottom: 128px;
+}
 }
