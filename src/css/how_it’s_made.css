@@ -54,6 +54,10 @@ margin-bottom: 20px;
   margin-bottom: 20px;  
 }
 
+.step-list {
+  color: #4C4C4C;
+}
+
 .production-steps {
 background-color: #FFFFFF;
 border-radius: 15px;
@@ -92,7 +96,9 @@ padding-bottom: 20px
   width: 768px;
   margin: 0 auto;
 }
-
+.how-its-made {
+  padding-bottom: 100px;
+}
 .title-text {
   font-weight: 600;
   font-size: 24px;
@@ -117,10 +123,7 @@ margin-left: 5px;
 
 .how-its-made-player-wrapper {
 max-width: 614px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 20px;
+
 }
 .production-steps-title {
 font-weight: 600;
@@ -158,6 +161,9 @@ padding-bottom: 32px;
   margin: 0 auto;
 
 }
+.how-its-made {
+  padding-bottom: 128px;
+}
 .title-text {
   font-family: 'Montserrat';
   font-weight: 600;
@@ -185,6 +191,7 @@ margin-left: 5px;
 .how-its-made-player-wrapper {
 margin-right: 0;
 margin-left: 0;
+margin-bottom: 0;
 } 
 
 .how-its-made-player {
@@ -205,10 +212,8 @@ border-radius: 15px;
 max-width: 516px;
 margin-left: 0;
 margin-right: 0;
-padding-top: 32px;
-padding-left: 32px;
-padding-right: 32px;
-padding-bottom: 32px;
+padding: 32px;
+
 max-height: 400px;
 }
 
