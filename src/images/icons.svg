@@ -36,9 +36,6 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M8 8l16 16"></path>
 </symbol>
 <symbol id="icon-logo_chocolate" viewBox="0 0 32 32">
-<path fill="#e2e2e2" style="fill: var(--color9, #e2e2e2)" d="M0.727 0h30.545v32h-30.545v-32z"></path>
-<path fill="#fafafa" style="fill: var(--color10, #fafafa)" d="M-243.636-33.455h545.455v10530.909h-545.455v-10530.909z"></path>
-<path fill="#fcf1e0" style="fill: var(--color11, #fcf1e0)" d="M4.492 19.89l10.287-16.632 0.611-0.643 7.862 5.242 0.054 3.163 1.919 3.13-8.476 13.437-12.256-7.696z"></path>
 <path fill="none" stroke="#fd9222" style="stroke: var(--color6, #fd9222)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6182" d="M21.378 23.521l-13.541-8.461M11.572 8.935l13.541 8.461M10.874 25.416l11.202-18.375M26.668 14.844c-2.902-1.813-4.041-3.23-2.174-6.293l-9.188-5.742-11.202 18.375 13.541 8.461 9.024-14.802z"></path>
 </symbol>
 <symbol id="icon-menu_burger" viewBox="0 0 32 32">
