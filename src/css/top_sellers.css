@@ -1,0 +1,62 @@
+/* PHONE */
+
+.top_sellers_section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 72px;
+}
+
+.top_sellers_title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.03em;
+    color: var(--secondary_color);
+    padding-bottom: 32px;
+}
+
+.top_sellers_black_title_part {
+    color: var(--accent_color);
+}
+
+.top_sellers_list_item {
+    padding-bottom: 32px;
+}
+
+.top_sellers_img {
+    border-radius: 15px;
+    padding-bottom: 20px;
+}
+
+.top_sellers_third_img {
+    display: none;
+}
+
+.top_sellers_desc {
+    letter-spacing: -0.02em;
+}
+
+.top_sellers_button {
+    width: 120px;
+    height: 41px;
+    background: var(--accent_color);
+    color: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.top_sellers_button:hover,
+.top_sellers_button:focus {
+    background: #FCF1E0;
+    color: var(--accent_color);
+}
+
+
+/* TABLET */
+@media screen and (max-width: 768px) {}
+
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) {}
