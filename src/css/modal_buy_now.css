@@ -2,28 +2,30 @@
 ::before {
     box-sizing: border-box;
 }
-
-:root {
-    --orange: #FD9222;
-    --black: #111111;
-    --dark-purple: #1E1823;
-    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    --background-white: #FAFAFA;
-    --button-hover: #FCF1E0;
-}
-
 div {
     display: block;
 }
+:root {
+    --primary_background_color: #1e1823;
+    --primary_text_color: #ffffff;
+    --accent_color: #fd9222;
+    --secondary_color: #111111;
+    --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-li {
-    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+
+    color: var(--secondary_color);
+    background-color: #e2e2e2;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
 }
-
-ul {
-    margin: 0 auto;
-}
-
 .hero {
     background-size: cover;
     background-repeat: no-repeat;
@@ -91,7 +93,7 @@ ul {
 
 .icon-close {
     transition: fill var(--animation);
-    fill: var(--black);
+    fill: var(--secondary_color);
 }
 
 .order-close:hover .icon-close,
@@ -100,7 +102,7 @@ ul {
 }
 
 .logo-orange {
-    color: var(--orange);
+    color: var(--accent_color);
 }
 
 .modal-logo {
@@ -118,7 +120,7 @@ ul {
     text-align: center;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--secondary-color);
 }
 
 .company-product-list {
@@ -140,7 +142,7 @@ ul {
 }
 
 .company-product-1:hover {
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .company-product-2 {
@@ -157,7 +159,7 @@ ul {
 }
 
 .company-product-2:hover {
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .company-product-3 {
@@ -174,7 +176,7 @@ ul {
 }
 
 .company-product-3:hover {
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .chocolate-img-1 {
@@ -228,8 +230,8 @@ ul {
 
 .choc-btn:hover,
 .choc-btn:focus {
-    border-color: var(--orange);
-    background-color: var(--orange);
+    border-color: var(--accent_color);
+    background-color: var(--accent_color);
     color: #ffffff;
 }
 
@@ -266,7 +268,7 @@ ul {
 
 .name-input:focus {
     outline: none;
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .surname-input {
@@ -287,7 +289,7 @@ ul {
 
 .surname-input:focus {
     outline: none;
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .email-input-form {
@@ -313,7 +315,7 @@ ul {
 
 .email-input:focus {
     outline: none;
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .phone-input-form {
@@ -339,7 +341,7 @@ ul {
 
 .phone-input:focus {
     outline: none;
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .payment-form {
@@ -365,7 +367,7 @@ ul {
 
 .card-input:focus {
     outline: none;
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .comment-form {
@@ -392,7 +394,7 @@ ul {
 
 .comment-input:focus {
     outline: none;
-    border-color: var(--orange);
+    border-color: var(--accent_color);
 }
 
 .submit {
@@ -411,7 +413,7 @@ ul {
     left: 24px;
     top: 921px;
     color: #ffffff;
-    background-color: var(--orange);
+    background-color: var(--accent_color);
     border: none;
     border-radius: 100px;
     transition: background-color var(--animation), color var(--animation);
@@ -419,6 +421,6 @@ ul {
 
 .submit-btn:hover,
 .submit-btn:focus {
-    background-color: var(--button-hover);
-    color: var(--orange);
+    background-color: #fcf1e0;
+    color: var(--accent_color);
 }
