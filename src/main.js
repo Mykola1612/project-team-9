@@ -6,3 +6,4 @@ import '/js/review/script.js';
 import '/js/review/slick.min.js';
 import '/js/swiper.js';
 import '/js/mobile-menu.js';
+import '/js/sub-modal.js';
