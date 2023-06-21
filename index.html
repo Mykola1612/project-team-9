@@ -18,8 +18,8 @@
     />
     
     <title>Simply chocolate</title>
-    <script type="module" crossorigin src="/project-team-9/assets/index-15b7607f.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-9809b667.css">
+    <script type="module" crossorigin src="/project-team-9/assets/index-51e5e849.js"></script>
+    <link rel="stylesheet" href="/project-team-9/assets/index-42c57603.css">
   </head>
   <body>
     <header>
@@ -32,19 +32,19 @@
     </a>
     <ul class="navigation_link_list">
     <li class="navigation_list">
-        <a class="navigation-list-link" href="#">Home</a>
+        <a class="navigation-list-link" href="#" id="home">Home</a>
     </li>
     <li class="navigation_list">
-        <a class="navigation-list-link" href="#how-made">How it’s made?</a>
+        <a class="navigation-list-link" href="#how_made">How it’s made?</a>
     </li>
     <li class="navigation_list">
-        <a class="navigation-list-link" href="#our-prod">Our products</a>
+        <a class="navigation-list-link" href="#our_prod">Our products</a>
     </li>
     <li class="navigation_list">
-        <a class="navigation-list-link" href="#top-sell">Top sellers</a>
+        <a class="navigation-list-link" href="#top_sell">Top sellers</a>
     </li>
     <li class="navigation_list">
-        <a class="navigation-list-link" href="#choko-love">Chocolate is loved</a>
+        <a class="navigation-list-link" href="#choko_love">Chocolate is loved</a>
     </li>
     </ul>
     <ul class="navigation_social">
@@ -64,26 +64,26 @@
     </li>
     </ul>
     <!-- burger mobile and tablet-->
-    <button type="button" class="nav_button_open_menu js-open-menu" >
+    <button type="button" class="nav_button_open_menu modal-menu-open">
         <svg class="nav-burger-color" width="28" height="28">
             <use href="/project-team-9/assets/icons-994ec612.svg#icon-menu_burger"></use>
         </svg>
     </button>
     </nav>
     </div>
-    <div class="header_mobile_menu js-menu-container" >
+    <div class="header_mobile_menu is-hidden modal-menu">
         <div class="header_mobile_container">
-            <button type="button" class="mobile_menu_button js-close-menu" >
+            <button type="button" class="mobile_menu_button modal-menu-close">
                 <svg class="icon_close_head" width="28" height="28">
                     <use href="/project-team-9/assets/icons-994ec612.svg#icon-x-close"></use>
                 </svg>
             </button>
     <ul class="header_menu_list">
         <li><a class="header_menu_list_link link" href="index.html">Home</a></li>
-        <li><a class="header_menu_list_link link" href="#how-made">How it’s made?</a></li>
-        <li><a class="header_menu_list_link link" href="#our-prod">Our products</a></li>
-        <li><a class="header_menu_list_link link" href="#top-sell">Top sellers</a></li>
-        <li><a class="header_menu_list_link link" href="#choko-love">Chocolate is loved</a></li>
+        <li><a class="header_menu_list_link link" href="#how_made">How it’s made?</a></li>
+        <li><a class="header_menu_list_link link" href="#our_prod">Our products</a></li>
+        <li><a class="header_menu_list_link link" href="#top_sell">Top sellers</a></li>
+        <li><a class="header_menu_list_link link" href="#choko_love">Chocolate is loved</a></li>
     </ul>
     <ul class="header_menu_list_social">
         <li>
@@ -111,7 +111,7 @@
       </p>
       <div class="flex-container">
         <div class="container_button_and_link">
-          <button class="hero_button js-open-menu-buy" type="button">
+          <button class="hero_button modal-buy-open" type="button">
             Buy now
           </button>
           <a class="hero_link_how_made" href="#how_made">How it’s made</a>
@@ -130,11 +130,11 @@
   </div>
 </section>
 
-      <section class="advantages">
-    <div class="container div-container">
+      <section class="advantages container">
+    <div class=" div-container">
         <h2 hidden>hidden text</h2>
     <ul class="list-advantages">
-        <li class="discrabe-list">  
+        <li class="discrabe-list active-link">  
             <div class="div-advantages-icon"><svg class="advantages-icon" width="32" height="32">
             <use href="/project-team-9/assets/icons-994ec612.svg#icon-advantages-chocolate"></use>
         </svg> 
@@ -142,7 +142,7 @@
             <h3 class="headers-for-advantages">Unsurpassed taste</h3> 
         <p class="discrabe-for-advantages">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
         </li>
-        <li class="discrabe-list">
+        <li class="discrabe-list active-link">
             <div class="div-advantages-icon">
                 <svg class="advantages-icon" width="32" height="32">
             <use href="/project-team-9/assets/icons-994ec612.svg#icon-advantages-coin"></use>
@@ -360,7 +360,7 @@
   </div> 
 </section>
 
-      <section class="our_products_section">
+      <section class="our_products_section" id="our_prod">
     <div class="op_container">
         <h1 class="op_header">Our <span class="op_header_span">Products</span></h1>
         <ul class="op_swiper swiper-container">
@@ -572,7 +572,7 @@
     </div>
 </section>
       <!-- TOP SELLERS -->
-<section class="top_sellers_section container">
+<section class="top_sellers_section container" id="top_sell">
   <h2 class="top_sellers_title">
     <span class="top_sellers_black_title_part">TOP</span> SELLERS
   </h2>
@@ -664,7 +664,7 @@
   </ul>
 </section>
 
-      <section>
+      <section id="choko_love">
     <div class="container">
         <h2 class="reviews_title"><span class="reviews_text_decoration">chocolate</span> is loved</h2>
             <div class="reviews_section">
@@ -730,15 +730,15 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button class="btn_section_subscribe js-open-menu-sub" type="submit"  >
+    <button class="btn_section_subscribe modal-sub-open" type="submit"  >
       Subscribe
     </button>
   </div>
 </section>
-<div class="modal_subscribe js-menu-container-sub">
+<div class="modal_subscribe is-hidden modal-sub">
   <div class="wrapper_modal_subscribe">
     <div class="container_modal_subscribe_img">
-      <button class="modal_subscribe_btn_close js-close-menu-sub" type="button"  >
+      <button class="modal_subscribe_btn_close modal-sub-close" type="button"  >
         <svg class="modal_close_icon_subscribe" width="28" height="28">
           <use href="/project-team-9/assets/icons-994ec612.svg#icon-x-close"></use>
         </svg>
@@ -768,9 +768,9 @@
   </div>
 </div>
 
-      <div class="backdrop is-hidden js-menu-container-buy">
+      <div class="backdrop is-hidden modal-buy">
   <div class="order-modal-mobile">
-    <button type="button" class="order-close js-close-menu-buy" >
+    <button type="button" class="order-close modal-buy-close" >
       <svg class="close-svg" width="16" height="16" aria-label="close">
         <use href="/project-team-9/assets/icons-994ec612.svg#close"></use>
       </svg>
@@ -929,9 +929,9 @@
       <ul class="footer-nav-container">
         <li><a href="#home">Home</a></li>
         <li><a href="#how_made">How it's made?</a></li>
-        <li><a href="#our_products">Our products</a></li>
-        <li><a href="#top_sellers">Top sellers</a></li>
-        <li><a href="#chocolate_is_loved">Chocolate is loved</a></li>
+        <li><a href="#our_prod">Our products</a></li>
+        <li><a href="#top_sell">Top sellers</a></li>
+        <li><a href="#choco_love">Chocolate is loved</a></li>
       </ul>
     </nav>
   </section>
