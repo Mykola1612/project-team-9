@@ -73,8 +73,6 @@ screen and (min-resolution: 2dppx) {
 }
 
 .modal_subscribe_title {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -89,8 +87,6 @@ screen and (min-resolution: 2dppx) {
 }
 
 .modal_subscribe_input::placeholder {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
@@ -119,20 +115,24 @@ screen and (min-resolution: 2dppx) {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #fd9222;
     border-radius: 100px;
     width: 100px;
     height: 45px;
+    border: none;
+    position: absolute;
+    right: 0;
+    background: #fd9222;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
     color: #ffffff;
-    border: none;
-    position: absolute;
-    right: 0;
 }
+.btn_submit_modal_text_tabl {display: none;
+}
+    
+
 
 /* ====================TABLET==================== */
 @media screen and (min-width: 768px) {
@@ -187,10 +187,8 @@ screen and (min-resolution: 2dppx) {
 
     .container_input_btn_modal_subscribe {
         display: flex;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
-        column-gap: 20p;
-        column-gap: 8px;
         width: 100%;
         position: static;
     }
@@ -200,17 +198,26 @@ screen and (min-resolution: 2dppx) {
     }
 
     .modal_subscribe_input {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 24px;
-        width: 100%;
+        padding: 14px 24px 14px 24px;
+        width: 313px;
         border: none;
         height: 52px;
     }
 
     .btn_submit_modal_subscribe {
-        position: static;
+        position: absolute;
         width: 137px;
         height: 52px;
+        right: 40px;
     }
+    .btn_submit_modal_text_mobile {display: none;
+    }
+    .btn_submit_modal_text_tabl {display: block;}
+}
+@media screen and (min-width:1200px) {
+    .modal_subscribe_input:hover,
+    .modal_subscribe_input:focus {
+        border: 1px solid var(--accent_color);
+    }
+    
 }

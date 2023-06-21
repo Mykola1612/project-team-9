@@ -1,3 +1,18 @@
+.choco_love_sec {
+    padding-bottom: 72px;
+}
+@media screen and (min-width:768px) {
+    .choco_love_sec {
+        padding-bottom: 100px;
+    }
+}
+    
+    @media screen and (min-width:1200px) {
+        .choco_love_sec {
+            padding-bottom: 128px;
+        } 
+    }
+
 .reviews_section{
     display: flex;
     flex-direction: column;
@@ -70,9 +85,7 @@
         font-size: 14px;
         line-height: 1.28;
         color: rgba(17, 17, 17, 0.7);
-        padding-bottom: 42px;
-        
-        
+        padding-bottom: 42px; 
 }
 
 .reviews_photo {
@@ -81,17 +94,12 @@
     top: 0;
     right: 50%;
     transform: translate(50% , -50%);
-    
-   
 }
 .reviews_pointer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 72px;
 }
-
-
 .reviews_btn{
     border: 1px solid var(--accent_color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -102,9 +110,7 @@
             margin: 0 auto;
             font-weight: 600;
                 font-size: 14px;
-                line-height: 1.21px;
-            
-            
+                line-height: 1.21px;         
 }
 .reviews_btn:hover {
     background: var(--accent_color);
@@ -112,18 +118,7 @@
             background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.reviews_list_nb, .reviews_list_ok{
-    /* display: none; */
-}
-
 /* <=================================================SLIDER */
-
-
-
-
-
-
 
 /* Точки (булиты) */
 .reviews_slider_list{
@@ -134,10 +129,6 @@
     list-style: none;
     padding-bottom: 32px;
 }
-
-
-
-
 /* Элемент точки */
 .reviews_slick_dots {
     font-size: 0;
@@ -148,7 +139,6 @@
     border-color: transparent;
     cursor: pointer;
 }
-
 .reviews_slick_dots:hover {
     background: var(--accent_color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -159,73 +149,44 @@
     box-sizing: border-box;
     border: none;
 }
-    
-
 .reviews_list_nb, .reviews_list_ok, .reviews_list_ns, .reviews_list_ds, .reviews_list_it{
 display: none;
 }
-
-
 /* <=====================================================MAX-WIDTH */
-
-
-
 @media screen and (min-width: 768px) {
-
 .reviews_box_list {
-    
     width: 704px;
     display: flex;
         gap: 16px;
-        margin-bottom: 31px;
-        
+        margin-bottom: 31px;     
 }
 .reviews_list {
     width: 344px;
 }
-
 .reviews_list_nb {
     display: block;
 }
-
-
-
 .reviews_title{
     font-size: 24px;
         line-height: 1.16;
         margin-bottom: 91px;
 }
-
 .reviews_slider_list{
     padding-bottom: 50px;
 }
-
 .reviews_btn{
     font-size: 18px;
         line-height: 1.22;
     width: 222px;
         height: 50px;
 }
-
-.reviews_pointer {
-    
-    margin-bottom: 100px;
-}
-
-}
-
-@media screen and (min-width: 1200px) {
-   
-.reviews_box_list {
-
-        width: 1136px;
-
     }
-
+@media screen and (min-width: 1200px) {  
+.reviews_box_list {
+        width: 1136px;
+    }
 .reviews_list {
-    width: 360px;
-    
-
+    width: 360px;  
 }
 .reviews_list_ok{
     display: block;
@@ -233,9 +194,4 @@ display: none;
 .reviews_box_list{
     gap: 28px;
 }
-.reviews_pointer {
-
-    margin-bottom: 128px;
-}
-
-}
+    }
