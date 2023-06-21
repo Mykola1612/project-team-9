@@ -99,8 +99,7 @@
 }
 .header_menu_list_link:hover,
 .header_menu_list_link:focus {color:var(--accent_color);
-}
-
+  }  
 .header_navigation {
   display: flex;
   justify-content: space-between;
