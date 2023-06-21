@@ -21,10 +21,28 @@
   border-radius: 365px;
   margin-bottom: 22px;
   }
-  .discrabe-list {height: 244px;
+  .discrabe-list {
+    height: 244px;
+    width: 326px;
   }
   .discrabe-list-size {height: 225px;
 }
+/*  */
+.active-link {
+  position: relative;
+}
+.active-link::after {
+    content: "";
+    width: 124px;
+    height: 0px;
+    right: 0px;
+    bottom: 50%;
+    position: absolute;
+border: 1px solid rgba(255, 255, 255, 0.5);
+transform: translate(50%,-50%) rotate(90deg);
+}
+
+/*  */
   .advantages-icon {
     fill: var(--accent_color);
   }

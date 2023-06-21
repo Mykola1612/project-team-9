@@ -49,15 +49,15 @@ background: var(--primary_background_color);
 position: fixed;
 top: 0;
 right: 0;
-opacity: 0;
-visibility: hidden;
-pointer-events: none;
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
 z-index:999;
 }
-.header_mobile_menu.is-open {
-  opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .icon_close_head {
   stroke: var(--primary_text_color);
