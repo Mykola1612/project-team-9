@@ -94,6 +94,12 @@
   letter-spacing: -0.02em;
   color: var(--primary_text_color);
 }
+@media screen and (min-width:768px) {
+.header_menu_list_link:hover,
+.header_menu_list_link:focus {
+  color: var(--accent_color);
+  }  
+}
 
 .header_navigation {
   display: flex;

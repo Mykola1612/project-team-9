@@ -41,7 +41,10 @@
 border: 1px solid rgba(255, 255, 255, 0.5);
 transform: translate(50%,-50%) rotate(90deg);
 }
-
+@media screen and (max-width:1199px) {
+  .active-link {display: none;
+  }
+}
 /*  */
   .advantages-icon {
     fill: var(--accent_color);
