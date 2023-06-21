@@ -42,16 +42,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-}
-
-.modal-open {
-  overflow: hidden;
-}
-
 .container {
   max-width: 375px;
   padding-left: 20px;
@@ -72,4 +62,27 @@
   .container {
     max-width: 1200px;
   }
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity var(--animation), visibility var(--animation);
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-open {
+  overflow: hidden;
 }
