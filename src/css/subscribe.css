@@ -35,8 +35,8 @@
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 375px),
-screen and (min-resolution: 192dpi) and (max-width: 375px),
-screen and (min-resolution: 2dppx) and (max-width: 375px) {
+  screen and (min-resolution: 192dpi) and (max-width: 375px),
+  screen and (min-resolution: 2dppx) and (max-width: 375px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../images/subscribe/Subcribe@2x.jpg);
@@ -112,8 +112,8 @@ screen and (min-resolution: 2dppx) and (max-width: 375px) {
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 429px),
-screen and (min-resolution: 192dpi) and (min-width: 429px),
-screen and (min-resolution: 2dppx) and (min-width: 429px) {
+  screen and (min-resolution: 192dpi) and (min-width: 429px),
+  screen and (min-resolution: 2dppx) and (min-width: 429px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../images/subscribe/Subcribe-tablet@2x.jpg);
@@ -156,27 +156,28 @@ screen and (min-resolution: 2dppx) and (min-width: 429px) {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: auto;
     margin-right: auto;
   }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 769px),
-screen and (min-resolution: 192dpi) and (min-width: 769px),
-screen and (min-resolution: 2dppx) and (min-width: 769px) {
+  screen and (min-resolution: 192dpi) and (min-width: 769px),
+  screen and (min-resolution: 2dppx) and (min-width: 769px) {
   .subscribe {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url(../images/subscribe/Subcribe_desctop@2x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+}
 
 /* ======================DESCTOP-END================ */
