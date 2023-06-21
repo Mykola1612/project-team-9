@@ -177,14 +177,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  visibility: hidden;
-  pointer-events: none;
-}
-.modal_subscribe.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-  background-color: transparent;
 }
 .modal_close_icon_subscribe {stroke: var(--primary_text_color);
 }
