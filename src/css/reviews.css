@@ -13,14 +13,14 @@
     justify-content: center;
     display: block;
     margin: 0 auto;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .reviews_title{
     font-weight: 600;
         font-size: 20px;
         line-height: 1.2;
-        padding-bottom: 74px;
+        margin-bottom: 74px;
         text-align: center;
         letter-spacing: -0.03em;
         text-transform: uppercase;
@@ -28,6 +28,8 @@
 
 .reviews_text_decoration{
     color: var(--accent_color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -43,6 +45,8 @@
         text-align: center;
         position: relative;
         min-width: 0;
+        padding-left: 18px;
+        padding-right: 18px;
         
         
         
@@ -53,8 +57,8 @@
 }
 
 .reviews_list_title{
-    margin-top: 56px;
-    margin-bottom: 24px;
+    padding-top: 56px;
+    padding-bottom: 24px;
     font-weight: 600;
         font-size: 18px;
         line-height: 1.33;
@@ -65,8 +69,6 @@
     
         font-size: 14px;
         line-height: 1.28;
-        margin-left: 18px;
-        margin-right: 18px;
         color: rgba(17, 17, 17, 0.7);
         padding-bottom: 42px;
         
@@ -86,16 +88,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 
 .reviews_btn{
     border: 1px solid var(--accent_color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         border-radius: 100px;
         width: 165px;
             height: 41px;
             margin: 0 auto;
-            margin-bottom: 72px;
             font-weight: 600;
                 font-size: 14px;
                 line-height: 1.21px;
@@ -104,6 +108,8 @@
 }
 .reviews_btn:hover {
     background: var(--accent_color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -145,6 +151,8 @@
 
 .reviews_slick_dots:hover {
     background: var(--accent_color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 28px;
     height: 13px;
     border-radius: 100px;
@@ -169,7 +177,8 @@ display: none;
     width: 704px;
     display: flex;
         gap: 16px;
-        padding-bottom: 31px;
+        margin-bottom: 31px;
+        
 }
 .reviews_list {
     width: 344px;
@@ -184,7 +193,7 @@ display: none;
 .reviews_title{
     font-size: 24px;
         line-height: 1.16;
-        padding-bottom: 91px;
+        margin-bottom: 91px;
 }
 
 .reviews_slider_list{
@@ -194,9 +203,13 @@ display: none;
 .reviews_btn{
     font-size: 18px;
         line-height: 1.22;
-    margin-bottom: 100px;
     width: 222px;
         height: 50px;
+}
+
+.reviews_pointer {
+    
+    margin-bottom: 100px;
 }
 
 }
@@ -213,8 +226,6 @@ display: none;
     width: 360px;
     
 
-
-
 }
 .reviews_list_ok{
     display: block;
@@ -222,8 +233,9 @@ display: none;
 .reviews_box_list{
     gap: 28px;
 }
+.reviews_pointer {
 
-.reviews_btn {
     margin-bottom: 128px;
 }
+
 }

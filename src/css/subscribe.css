@@ -130,7 +130,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: auto;
     margin-right: auto;
   }
@@ -145,7 +145,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     margin-left: auto;
     margin-right: auto;
   }
