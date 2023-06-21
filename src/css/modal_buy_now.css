@@ -2,9 +2,11 @@
 ::before {
     box-sizing: border-box;
 }
+
 div {
     display: block;
 }
+
 :root {
     --primary_background_color: #1e1823;
     --primary_text_color: #ffffff;
@@ -26,6 +28,7 @@ div {
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
 }
+
 .hero {
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,11 +58,7 @@ div {
     pointer-events: auto;
     transition: opacity var(--animation), visibility var(--animation);
 }
-.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
+
 .order-modal-mobile {
     position: absolute;
     width: 311px;

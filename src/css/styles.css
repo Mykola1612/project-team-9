@@ -19,6 +19,7 @@
 @import url('./modal_buy_now.css');
 @import url('./modal_leave_a_review.css');
 @import url('./modal_explore_chocolate.css');
+@import url('./modal_subscribe.css');
 
 :root {
   --primary_background_color: #1e1823;
@@ -41,13 +42,24 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.container {
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.modal- .container {
   max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
@@ -55,6 +67,7 @@
     padding-right: 32px;
   }
 }
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
