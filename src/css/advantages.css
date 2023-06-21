@@ -38,8 +38,12 @@
     right: 0px;
     bottom: 50%;
     position: absolute;
-border: 1px solid rgba(255, 255, 255, 0.5);
-transform: translate(50%,-50%) rotate(90deg);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transform: translate(50%,-50%) rotate(90deg);
+}
+@media screen and (max-width:1199px) {
+  .active-link::after {display: none;
+  }
 }
 
 /*  */
@@ -68,7 +72,7 @@ transform: translate(50%,-50%) rotate(90deg);
     }
     .list-advantages {
     justify-content: start;
-    gap: 32px 60px;
+    gap: 32px;
     }
   }
   

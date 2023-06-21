@@ -30,7 +30,10 @@
 .header-icon-color {
   stroke: var(--secondary_color);
 }
-
+.header-icon-color:hover,
+.header-icon-color:focus {
+  stroke: var(--accent_color);
+}
 .nav_button_open_menu {
   padding: 0;
   border: none;
@@ -93,6 +96,9 @@
   align-items: center;
   letter-spacing: -0.02em;
   color: var(--primary_text_color);
+}
+.header_menu_list_link:hover,
+.header_menu_list_link:focus {color:var(--accent_color);
 }
 
 .header_navigation {
