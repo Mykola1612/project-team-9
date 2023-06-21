@@ -226,6 +226,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section_hero {
+    padding-bottom: 50px;
+  }
+
   .container_width {
     max-width: 624px;
   }
@@ -274,6 +278,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .section_hero {
+    padding-bottom: 72px;
+  }
+
   .container_width {
     max-width: 1056px;
   }
