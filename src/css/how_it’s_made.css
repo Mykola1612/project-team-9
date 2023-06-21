@@ -4,12 +4,6 @@
   align-items: center;
 }
 
-
-
-.how-its-made {
-  padding-bottom: 72px;
-}
-
 .title-text {
   font-weight: 600;
   font-size: 20px;
@@ -31,6 +25,7 @@
   color: #FD9222;
   margin-left: 5px;
 }
+
 .how-its-made-player-wrapper {
 max-width: 335px;
 display: block;
@@ -223,7 +218,6 @@ max-height: 400px;
   color: #111111;
   
 }
-
 
 .step-item{
 margin-left: 14px;
