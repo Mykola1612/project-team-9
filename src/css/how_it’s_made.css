@@ -148,7 +148,7 @@ padding-bottom: 32px;
 .step-item:last-child {
   margin-bottom: 0;
 }
-}
+
 
 @media screen and (min-width: 1200px) {
 .container {
