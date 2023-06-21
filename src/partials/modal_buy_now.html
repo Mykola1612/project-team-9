@@ -1,7 +1,13 @@
-<div class="backdrop is-hidden" modal-buy>
+<div class="backdrop is-hidden" data-first-modal>
   <div class="order-modal-mobile">
-    <button type="button" class="order-close" modal-buy-close>
-      <svg class="close-svg" width="16" height="16" aria-label="close">
+    <button type="button" class="order-close">
+      <svg
+        class="close-svg"
+        width="16"
+        height="16"
+        aria-label="close"
+        data-first-modal-close
+      >
         <use href="./images/icons.svg#close"></use>
       </svg>
     </button>
@@ -95,7 +101,7 @@
       ></textarea>
     </div>
     <div class="submit">
-      <button type="button" class="submit-btn" data-modal-close>Submit</button>
+      <button type="button" class="submit-btn">Submit</button>
     </div>
   </div>
 </div>

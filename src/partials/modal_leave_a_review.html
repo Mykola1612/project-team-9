@@ -1,0 +1,67 @@
+<div class="backdrop is-hidden" data-second-modal>
+  <div class="review_modal_window">
+    <button
+      type="button"
+      class="review_modal_close_btn"
+      data-second-modal-close
+    >
+      <svg class="review_modal_close_icon">
+        <use href="./images/icons.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <p class="review_modal_title">
+      LEAVE A REVIEW ABOUT<span class="review_modal_orange_title_part">
+        OUR CHOCOLATE</span
+      >
+    </p>
+    <form class="review_modal_form">
+      <div class="review_modal_form_flex_box">
+        <!-- Name -->
+        <input
+          class="review_modal_input_name"
+          type="text"
+          id="user-name"
+          name="user-name"
+          placeholder="Name"
+          required
+          minlength="3"
+          maxlength="20"
+        />
+
+        <!-- Email -->
+        <input
+          class="review_modal_input_email"
+          type="email"
+          id="user-email"
+          name="user-email"
+          placeholder="Email"
+          required
+          minlength="3"
+          maxlength="20"
+        />
+
+        <!-- Phone -->
+        <input
+          class="review_modal_input_tel"
+          type="tel"
+          id="user-tel"
+          name="user-tel"
+          placeholder="Phone number"
+          required
+          minlength="3"
+          maxlength="20"
+        />
+
+        <!-- Comment -->
+        <textarea
+          class="review_modal_textarea"
+          name="user-comment"
+          id="user-comment"
+          placeholder="Enter text"
+        >
+        </textarea>
+        <button class="review_modal_send_btn" type="button">Send</button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -2,9 +2,10 @@ document.addEventListener(
   "DOMContentLoaded",
   function () {
     const modals = [
-      "modal-menu",
-      "modal-sub",
-      "modal-buy",
+    "data-first-modal",
+    "data-second-modal",
+    "data-third-modal",
+    "data-mobmenu-modal"
     ];
 
 

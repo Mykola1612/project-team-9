@@ -86,7 +86,7 @@
     .top_sellers_list {}
 
     .top_sellers_img {
-        width: 368px;
+        min-width: 368px;
     }
 
     .top_sellers_third_img {
@@ -94,7 +94,7 @@
     }
 
     .top_sellers_desc {
-        position: fixed;
+        position: absolute;
         max-width: 408px;
     }
 
