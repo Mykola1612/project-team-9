@@ -2,6 +2,7 @@
   <div class="review_modal_window">
     <button
       type="button"
+      aria-label="close menu review"
       class="review_modal_close_btn"
       data-second-modal-close
     >
@@ -42,7 +43,7 @@
 
         <!-- Phone -->
         <div class="review_modal_input_phone_container">
-          <svg class="review_modal_input_ukr_flag_icon" width="24" height="18">
+          <svg class="review_modal_input_ukr_flag_icon" width="24" height="24">
             <use href="./images/icons.svg#icon-modal-ukraine"></use>
           </svg>
           <p class="review_modal_input_directive_numb">+380</p>
@@ -63,12 +64,10 @@
           class="review_modal_textarea"
           name="user-comment"
           id="user-comment"
-          placeholder="Enter text"
-        >
-        </textarea>
+          placeholder="Enter text"></textarea>
        
       </div>
-      <button class="review_modal_send_btn" type="submit">Send</button>
+      <button class="review_modal_send_btn" aria-label="send review comment" type="submit">Send</button>
     </form>
   </div>
 </div>
