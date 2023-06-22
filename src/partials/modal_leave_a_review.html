@@ -5,12 +5,12 @@
       class="review_modal_close_btn"
       data-second-modal-close
     >
-      <svg class="review_modal_close_icon">
+      <svg class="review_modal_close_icon" width="24" height="24">
         <use href="./images/icons.svg#icon-x-close"></use>
       </svg>
     </button>
     <p class="review_modal_title">
-      LEAVE A REVIEW ABOUT<span class="review_modal_orange_title_part">
+      LEAVE A REVIEW <br />ABOUT<span class="review_modal_orange_title_part">
         OUR CHOCOLATE</span
       >
     </p>
@@ -18,7 +18,7 @@
       <div class="review_modal_form_flex_box">
         <!-- Name -->
         <input
-          class="review_modal_input_name"
+          class="review_modal_input_window review_modal_input_name"
           type="text"
           id="user-name"
           name="user-name"
@@ -30,7 +30,7 @@
 
         <!-- Email -->
         <input
-          class="review_modal_input_email"
+          class="review_modal_input_window review_modal_input_email"
           type="email"
           id="user-email"
           name="user-email"
@@ -41,16 +41,22 @@
         />
 
         <!-- Phone -->
-        <input
-          class="review_modal_input_tel"
-          type="tel"
-          id="user-tel"
-          name="user-tel"
-          placeholder="Phone number"
-          required
-          minlength="3"
-          maxlength="20"
-        />
+        <div class="review_modal_input_phone_container">
+          <svg class="review_modal_input_ukr_flag_icon" width="24" height="18">
+            <use href="./images/icons.svg#icon-modal-ukraine"></use>
+          </svg>
+          <p class="review_modal_input_directive_numb">+380</p>
+          <input
+            class="review_modal_input_tel"
+            type="tel"
+            id="user-tel"
+            name="user-tel"
+            placeholder="Phone number"
+            required
+            minlength="9"
+            maxlength="9"
+          />
+        </div>
 
         <!-- Comment -->
         <textarea
@@ -60,7 +66,7 @@
           placeholder="Enter text"
         >
         </textarea>
-        <button class="review_modal_send_btn" type="button">Send</button>
+        <button class="review_modal_send_btn" type="submit">Send</button>
       </div>
     </form>
   </div>

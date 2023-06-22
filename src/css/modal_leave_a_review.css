@@ -1,0 +1,129 @@
+.review_modal_window {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FAFAFA;
+    width: 311px;
+    height: 471px;
+}
+
+.review_modal_close_btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.review_modal_close_icon {
+    width: 24px;
+    height: 24px;
+    stroke: #111111;
+}
+
+.review_modal_title {
+    position: absolute;
+    top: 32px;
+    left: 24px;
+    width: 255px;
+    height: 48px;
+    color: #111111;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.6px;
+}
+
+.review_modal_orange_title_part {
+    color: #FD9222;
+}
+
+.review_modal_form {
+    position: absolute;
+    top: 112px;
+    left: 24px;
+}
+
+.review_modal_form_flex_box {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.review_modal_input_window {
+    width: 263px;
+    height: 45px;
+    border-color: rgba(64, 64, 64, 0.3);
+    border-radius: 8px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    padding-left: 18px;
+}
+
+.review_modal_input_window:focus {
+    outline: none;
+    border-color: var(--accent_color);
+}
+
+.review_modal_textarea {
+    width: 263px;
+    height: 91px;
+    resize: none;
+    border-color: rgba(64, 64, 64, 0.3);
+    border-radius: 8px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    padding: 14px 18px;
+}
+
+.review_modal_textarea:focus {
+    outline: none;
+    border-color: var(--accent_color);
+}
+
+.review_modal_send_btn {
+    width: 93px;
+    height: 41px;
+    border: none;
+    border-radius: 100px;
+    background: #FD9222;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Phone number input form */
+.review_modal_input_phone_container {
+    width: 263px;
+    height: 45px;
+    padding: 18px 10px;
+    border: 1.5px solid rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.review_modal_input_directive_numb::after {
+    content: '';
+    height: 25px;
+    border: 1px solid rgba(17, 17, 17, 0.05);
+    margin-left: 4px;
+}
+
+.review_modal_input_tel {
+    width: auto;
+    height: 17px;
+    border: none;
+    padding: 0;
+}
+
+.review_modal_input_tel:focus {
+    outline: none;
+    border: 1px solid var(--accent_color);
+    border-radius: 4px;
+}

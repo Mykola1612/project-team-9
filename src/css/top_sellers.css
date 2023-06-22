@@ -1,5 +1,16 @@
 /* PHONE */
+.top_sellers_third_img {
+    display: none;
+}
+
+.top_sellers_desc {
+    display: none;
+}
+
 .top_sellers_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     padding-bottom: 72px;
 }
@@ -25,14 +36,11 @@
 .top_sellers_img {
     border-radius: 15px;
     margin-bottom: 20px;
+    max-width: 335px;
     max-height: 464px;
 }
 
-.top_sellers_third_img {
-    display: none;
-}
-
-.top_sellers_desc {
+.top_sellers_mobile_desc {
     letter-spacing: -0.02em;
 }
 
@@ -58,21 +66,44 @@
     color: var(--accent_color);
 }
 
-
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .top_sellers_list {
-        display: flex;
-        justify-content: space-between;
-        column-gap: 16px;
+    .top_sellers_mobile_desc {
+        display: none;
     }
 
     .top_sellers_list_item {
-        max-width: 344px;
+        margin-bottom: 0;
+    }
+
+    .top_sellers_content_list_item {
+        width: 306px;
+        height: 90px;
+    }
+
+    .top_sellers_desc {
+        display: block;
+        letter-spacing: -0.02em;
+    }
+
+    .top_sellers_list {
+        display: flex;
+        column-gap: 16px;
+        flex-wrap: wrap;
     }
 
     .top_sellers_img {
-        width: 344px;
+        border-radius: 15px;
+        margin-bottom: 32px;
+        min-width: 344px;
+        min-height: 464px;
+    }
+
+    .top_sellers_content_list {
+        display: flex;
+        justify-content: space-between;
+        min-width: 704px;
+        min-height: 90px;
     }
 
     .top_sellers_button {
@@ -83,29 +114,17 @@
 
 /* DESKTOP */
 @media screen and (min-width: 1200px) {
-    .top_sellers_list {}
-
-    .top_sellers_img {
-        min-width: 368px;
-    }
-
     .top_sellers_third_img {
         display: block;
     }
 
-    .top_sellers_desc {
-        position: absolute;
-        max-width: 408px;
+    .top_sellers_img {
+        min-width: 368px;
+        min-height: 464px;
     }
 
-    .top_sellers_pic_flex_box {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        column-gap: 16px;
-    }
-
-    .top_sellers_list_second_item_width_specific {
-        max-width: 752px;
+    .top_sellers_content_list_item {
+        width: 407px;
+        height: 72px;
     }
 }
