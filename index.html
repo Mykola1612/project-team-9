@@ -19,7 +19,7 @@
     
     <title>Simply chocolate</title>
     <script type="module" crossorigin src="/project-team-9/assets/index-c6103b63.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-ab090626.css">
+    <link rel="stylesheet" href="/project-team-9/assets/index-14df201e.css">
   </head>
   <body>
     <header id="home" class="header_style">
@@ -1013,20 +1013,20 @@
         />
 
         <!-- Phone -->
-        <div class="review_modal_input_phone_container">
-          <svg class="review_modal_input_ukr_flag_icon" width="24" height="24">
-            <use href="/project-team-9/assets/icons-994ec612.svg#icon-modal-ukraine"></use>
-          </svg>
-          <p class="review_modal_input_directive_numb">+380</p>
+        <div class="bn_input_block">
+          <div class="bn_ua">
+            <svg class="bn_ua_svg" width="24" height="18">
+              <use href="/project-team-9/assets/icons-994ec612.svg#icon-modal-ukraine"></use>
+            </svg>
+            <p class="bn_ua_phone">+380</p>
+          </div>
           <input
-            class="review_modal_input_tel"
+            id="phone"
+            class="bn_input_phone"
             type="tel"
-            id="user-tel"
-            name="user-tel"
+            name="Phone"
             placeholder="Phone number"
             required
-            minlength="9"
-            maxlength="9"
           />
         </div>
 
@@ -1035,10 +1035,16 @@
           class="review_modal_textarea"
           name="user-comment"
           id="user-comment"
-          placeholder="Enter text"></textarea>
-       
+          placeholder="Enter text"
+        ></textarea>
       </div>
-      <button class="review_modal_send_btn" aria-label="send review comment" type="submit">Send</button>
+      <button
+        class="review_modal_send_btn"
+        aria-label="send review comment"
+        type="submit"
+      >
+        Send
+      </button>
     </form>
   </div>
 </div>
