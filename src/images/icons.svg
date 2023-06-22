@@ -41,5 +41,8 @@
 <symbol id="icon-menu_burger" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M4 16h24M4 8h24M4 24h24"></path>
 </symbol>
+<symbol id="icon-play" viewBox="0 0 30 32">
+<path style="fill: var(--color1)" d="M0 32v-32l30.476 16-30.476 16z"></path>
+</symbol>
 </defs>
 </svg>
