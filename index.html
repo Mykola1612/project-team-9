@@ -19,15 +19,15 @@
     
     <title>Simply chocolate</title>
     <script type="module" crossorigin src="/project-team-9/assets/index-c6103b63.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-69d23179.css">
+    <link rel="stylesheet" href="/project-team-9/assets/index-998b8ba8.css">
   </head>
   <body>
-    <header id="home">
+    <header id="home" class="header_style">
   <div class="header_container container">
     <nav class="header_navigation">
       <a class="header-logo-text link" href="index.html"
         >SIMPLY CHOCOLATE
-        <svg class="navigation-icon" width="24" height="24">
+        <svg class="navigation-icon" width="21" height="21">
           <use href="/project-team-9/assets/icons-994ec612.svg#icon-logo_chocolate"></use>
         </svg>
       </a>
@@ -1029,13 +1029,15 @@
         <div class="container_input_btn_modal_subscribe">
           <input
             class="modal_subscribe_input"
-            type="text"
+            type="email"
+            name="email_subscribe"
             placeholder="Enter your email"
             pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
             required
           />
           <button class="btn_submit_modal_subscribe" type="submit">
-            Submit
+            <span class="btn_submit_modal_text_mobile">Submit</span>
+            <span class="btn_submit_modal_text_tabl">Subscribe</span>
           </button>
         </div>
       </form>
