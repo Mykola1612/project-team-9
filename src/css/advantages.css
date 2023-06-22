@@ -45,10 +45,6 @@
   .active-link::after {display: none;
   }
 }
-@media screen and (max-width:1199px) {
-  .active-link {display: none;
-  }
-}
 /*  */
   .advantages-icon {
     fill: var(--accent_color);
