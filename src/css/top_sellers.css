@@ -36,7 +36,6 @@
 .top_sellers_img {
     border-radius: 15px;
     margin-bottom: 20px;
-    max-width: 335px;
     max-height: 464px;
 }
 
@@ -61,7 +60,6 @@
 
 .top_sellers_button:hover,
 .top_sellers_button:focus {
-    background-color: var();
     background: #FCF1E0;
     color: var(--accent_color);
 }
