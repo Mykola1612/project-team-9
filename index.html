@@ -19,7 +19,7 @@
     
     <title>Simply chocolate</title>
     <script type="module" crossorigin src="/project-team-9/assets/index-c6103b63.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-a801f0b3.css">
+    <link rel="stylesheet" href="/project-team-9/assets/index-69d23179.css">
   </head>
   <body>
     <header id="home">
@@ -596,53 +596,51 @@
     </div>
 </section>
       <!-- TOP SELLERS -->
-<section class="top_sellers_section container" id="top_sell">
-  <h2 class="top_sellers_title">
-    <span class="top_sellers_black_title_part">TOP</span> SELLERS
-  </h2>
-  <!-- IMAGES -->
-  <ul class="top_sellers_list">
-    <!-- First  Image -->
-    <li class="top_sellers_list_item">
-      <picture>
-        <!-- phone -->
-        <source
-          srcset="/project-team-9/assets/choco_phone_1-7a36f63f.jpg 1x, /project-team-9/assets/choco_phone_1@2x-cc7d0085.jpg 2x"
-          media="(min-width: 375px)"
-        />
+<section class="top_sellers_section" id="top_sell">
+  <div class="container">
+    <h2 class="top_sellers_title">
+      <span class="top_sellers_black_title_part">TOP</span> SELLERS
+    </h2>
+    <!-- IMAGES -->
+    <ul class="top_sellers_list">
+      <!-- First  Image -->
+      <li class="top_sellers_list_item">
+        <picture>
+          <!-- phone -->
+          <source
+            srcset="/project-team-9/assets/choco_phone_1-7a36f63f.jpg 1x, /project-team-9/assets/choco_phone_1@2x-cc7d0085.jpg 2x"
+            media="(min-width: 375px)"
+          />
 
-        <!-- tablet -->
-        <source
-          srcset="/project-team-9/assets/choco_tablet_1-b01895a5.jpg 1x, /project-team-9/assets/choco_tablet_1@2x-fdd7d206.jpg 2x"
-          media="(min-width: 768px)"
-        />
+          <!-- tablet -->
+          <source
+            srcset="/project-team-9/assets/choco_tablet_1-b01895a5.jpg 1x, /project-team-9/assets/choco_tablet_1@2x-fdd7d206.jpg 2x"
+            media="(min-width: 768px)"
+          />
 
-        <!-- desktop -->
-        <source
-          srcset="/project-team-9/assets/choco_desktop_1-cbf11c4f.jpg 1x, /project-team-9/assets/choco_desktop_1@2x-bb347cda.jpg 2x"
-          media="(min-width: 1200px)"
-        />
-        <img
-          class="top_sellers_img"
-          src="/project-team-9/assets/choco_desktop_1-cbf11c4f.jpg"
-          alt="Choco with nuts"
-          width="335px"
-        />
-      </picture>
+          <!-- desktop -->
+          <source
+            srcset="/project-team-9/assets/choco_desktop_1-cbf11c4f.jpg 1x, /project-team-9/assets/choco_desktop_1@2x-bb347cda.jpg 2x"
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="top_sellers_img"
+            src="/project-team-9/assets/choco_desktop_1-cbf11c4f.jpg"
+            alt="Choco with nuts"
+            width="335px"
+          />
+        </picture>
 
-      <!-- Description -->
-      <p class="top_sellers_desc">
-        Crazy enough chocolate originates from a bean just like the coffee bean
-        called Cacao. Cacao has been around for thousands of years and was first
-        discovered by the Native American tribe called the Mayans.
-      </p>
-    </li>
+        <!-- Mobile Description -->
+        <p class="top_sellers_mobile_desc">
+          Crazy enough chocolate originates from a bean just like the coffee
+          bean called Cacao. Cacao has been around for thousands of years and
+          was first discovered by the Native American tribe called the Mayans.
+        </p>
+      </li>
 
-    <li
-      class="top_sellers_list_item top_sellers_list_second_item_width_specific"
-    >
-      <div class="top_sellers_pic_flex_box">
-        <!-- Second Image -->
+      <!-- Second Image -->
+      <li class="top_sellers_list_item">
         <picture>
           <!-- phone -->
           <source
@@ -668,8 +666,10 @@
             width="335px"
           />
         </picture>
+      </li>
 
-        <!-- Third Image -->
+      <!-- Third Image -->
+      <li class="top_sellers_list_item">
         <picture class="top_sellers_third_img">
           <!-- desktop -->
           <source
@@ -682,12 +682,28 @@
             alt="Dark chocolate"
           />
         </picture>
-      </div>
-      <button class="top_sellers_button" type="button" data-first-modal-open>
-        Buy now
-      </button>
-    </li>
-  </ul>
+      </li>
+    </ul>
+
+    <!-- Content -->
+    <ul class="top_sellers_content_list">
+      <!-- Tablet/Desktop Description -->
+      <li class="top_sellers_content_list_item">
+        <p class="top_sellers_desc">
+          Crazy enough chocolate originates from a bean just like the coffee
+          bean called Cacao. Cacao has been around for thousands of years and
+          was first discovered by the Native American tribe called the Mayans.
+        </p>
+      </li>
+
+      <!-- Buy now button -->
+      <li class="top_sellers_content_list_item">
+        <button class="top_sellers_button" type="button" data-first-modal-open>
+          Buy now
+        </button>
+      </li>
+    </ul>
+  </div>
 </section>
 
       <section id="choco_love">
@@ -922,12 +938,12 @@
       class="review_modal_close_btn"
       data-second-modal-close
     >
-      <svg class="review_modal_close_icon">
+      <svg class="review_modal_close_icon" width="24" height="24">
         <use href="/project-team-9/assets/icons-994ec612.svg#icon-x-close"></use>
       </svg>
     </button>
     <p class="review_modal_title">
-      LEAVE A REVIEW ABOUT<span class="review_modal_orange_title_part">
+      LEAVE A REVIEW <br />ABOUT<span class="review_modal_orange_title_part">
         OUR CHOCOLATE</span
       >
     </p>
@@ -935,7 +951,7 @@
       <div class="review_modal_form_flex_box">
         <!-- Name -->
         <input
-          class="review_modal_input_name"
+          class="review_modal_input_window review_modal_input_name"
           type="text"
           id="user-name"
           name="user-name"
@@ -947,7 +963,7 @@
 
         <!-- Email -->
         <input
-          class="review_modal_input_email"
+          class="review_modal_input_window review_modal_input_email"
           type="email"
           id="user-email"
           name="user-email"
@@ -958,16 +974,22 @@
         />
 
         <!-- Phone -->
-        <input
-          class="review_modal_input_tel"
-          type="tel"
-          id="user-tel"
-          name="user-tel"
-          placeholder="Phone number"
-          required
-          minlength="3"
-          maxlength="20"
-        />
+        <div class="review_modal_input_phone_container">
+          <svg class="review_modal_input_ukr_flag_icon" width="24" height="18">
+            <use href="/project-team-9/assets/icons-994ec612.svg#icon-modal-ukraine"></use>
+          </svg>
+          <p class="review_modal_input_directive_numb">+380</p>
+          <input
+            class="review_modal_input_tel"
+            type="tel"
+            id="user-tel"
+            name="user-tel"
+            placeholder="Phone number"
+            required
+            minlength="9"
+            maxlength="9"
+          />
+        </div>
 
         <!-- Comment -->
         <textarea
@@ -977,7 +999,7 @@
           placeholder="Enter text"
         >
         </textarea>
-        <button class="review_modal_send_btn" type="button">Send</button>
+        <button class="review_modal_send_btn" type="submit">Send</button>
       </div>
     </form>
   </div>
