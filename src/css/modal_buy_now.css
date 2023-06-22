@@ -18,14 +18,14 @@
   left: 50%;
   padding: 32px 24px;
   transform: translate(-50%);
-  background: #FAFAFA;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #fafafa;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   transition: transform var(--animation);
   overflow: scroll;
   max-height: calc(100% - 40px);
 }
-
 
 .bn_close_btn {
   position: absolute;
@@ -41,8 +41,7 @@
   border: none;
   background-color: var(--background-white);
   cursor: pointer;
-  transition: background-color var(--animation),
-    border var(--animation);
+  transition: background-color var(--animation), border var(--animation);
 }
 
 .bn_close_svg {
@@ -53,7 +52,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: #FD9222;
+  color: #fd9222;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -79,13 +78,12 @@
   justify-content: center;
   gap: 8px;
   margin-bottom: 32px;
-
 }
 
 .bn_card {
   padding: 8px 16px;
-  border: 1px solid rgba(17, 17, 17, 0.10);
-  background: #FFF;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fff;
   border-radius: 15px;
   display: flex;
   flex-direction: row;
@@ -97,8 +95,8 @@
   border-radius: 100px;
   padding: 6px 16px;
   height: 29px;
-  border: 1px solid rgba(17, 17, 17, 0.10);
-  background: #FAFAFA;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  background: #fafafa;
   color: #111;
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
@@ -133,7 +131,6 @@
   position: relative;
 }
 
-
 .bn_input {
   border-radius: 8px;
   border: 1.5px solid rgba(17, 17, 17, 0.05);
@@ -153,17 +150,17 @@
 
 .bn_input:hover,
 .bn_input:focus {
-  border: 1.5px solid #FD9222;
+  border: 1.5px solid #fd9222;
 }
 
 .bn_input_phone:hover,
 .bn_input_phone:focus {
-  border: 1.5px solid #FD9222;
+  border: 1.5px solid #fd9222;
 }
 
 .bn_input_comment:hover,
 .bn_input_comment:focus {
-  border: 1.5px solid #FD9222;
+  border: 1.5px solid #fd9222;
 }
 
 .bn_input_comment {
@@ -177,19 +174,19 @@
 }
 
 .bn_input::placeholder {
-  color: rgba(64, 64, 64, 0.30);
+  color: rgba(64, 64, 64, 0.3);
   font-size: 14px;
   letter-spacing: -0.28px;
 }
 
 .bn_input_phone::placeholder {
-  color: rgba(64, 64, 64, 0.30);
+  color: rgba(64, 64, 64, 0.3);
   font-size: 14px;
   letter-spacing: -0.28px;
 }
 
 .bn_input_comment::placeholder {
-  color: rgba(64, 64, 64, 0.30);
+  color: rgba(64, 64, 64, 0.3);
   font-size: 14px;
   letter-spacing: -0.28px;
 }
@@ -197,8 +194,8 @@
 .bn_send-button {
   padding: 12px 28px;
   border-radius: 100px;
-  background: #FD9222;
-  color: #FFF;
+  background: #fd9222;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;
   border: none;
@@ -261,9 +258,9 @@
   }
 
   .bn_weight_btn {
-      padding: 8px 27px;
-      height: 33px;
-    }
+    padding: 8px 27px;
+    height: 33px;
+  }
 
   .bn_input_block {
     flex-direction: row;
@@ -274,3 +271,4 @@
     padding: 14px 40px;
     width: 133px;
   }
+}
