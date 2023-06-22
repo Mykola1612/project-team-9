@@ -28,7 +28,9 @@
     height: 244px;
     width: 326px;
   }
-  .discrabe-list-size {height: 225px;
+  .discrabe-list-size {
+    width: 326px;
+    height: 225px;
 }
 /*  */
 .active-link {

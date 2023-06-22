@@ -37,6 +37,7 @@
 
 .bn_modal_header {
   display: flex;
+  gap: 6px;
   flex-direction: row;
   justify-content: center;
   color: #fd9222;
