@@ -3,6 +3,9 @@
     padding-bottom: 20px;
     background-color: var(--primary_background_color);
   }
+  .advantager-hidden-text {
+    visibility: hidden;
+  }
   .list-advantages {
     list-style: none;
     display: flex;
