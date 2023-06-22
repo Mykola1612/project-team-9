@@ -6,6 +6,7 @@
     background-color: #FAFAFA;
     width: 311px;
     height: 471px;
+    border-radius: 15px;
 }
 
 .review_modal_close_btn {
@@ -50,7 +51,8 @@
 .review_modal_form_flex_box {
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 14px;
+    margin-bottom: 18px;
 }
 
 .review_modal_input_window {
