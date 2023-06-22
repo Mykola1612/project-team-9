@@ -3,6 +3,27 @@
     <h2 class="title-text">HOW IT’S<span class="title-text-yellow">MADE?</span></h2>
     <div class="wrapper">
       <div class="how-its-made-player-wrapper">
+        <button class="how-its-made-player-button">
+          <svg class="how-its-made-player_icon" width="20" height="21">
+            <use href="./images/icons.svg#icon-play"></use>
+          </svg>
+        </button>
+        <picture class="how-its-made-player">
+          <source
+            srcset="./images/how_its_made/desctop/video.jpg 1x, ./images/how_its_made/desctop/video@2x.jpg 2x"
+            media="(min-width: 1200px)"/>
+          <source
+            srcset="./images/how_its_made/tab/video.jpg 1x, ./images/how_its_made/tab/video@2x.jpg 2x"
+            media="(min-width: 768px)"/>
+          <source
+            srcset="./images/how_its_made/mobile/video.jpg 1x, ./images/how_its_made/mobile/video@2x.jpg 2x"
+            media="(min-width: 375px)"/>
+          <img class="how-its-made-player-img"
+            
+            src="./images/how_its_made/mobile/video.jpg"
+            alt="video"
+            />
+        </picture>
       </div>
       <div class="production-steps">
       <h3  class="production-steps-title">
