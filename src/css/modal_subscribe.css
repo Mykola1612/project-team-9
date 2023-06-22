@@ -73,8 +73,6 @@ screen and (min-resolution: 2dppx) {
 }
 
 .modal_subscribe_title {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
@@ -89,8 +87,6 @@ screen and (min-resolution: 2dppx) {
 }
 
 .modal_subscribe_input::placeholder {
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
@@ -112,7 +108,6 @@ screen and (min-resolution: 2dppx) {
     border-radius: 25px;
     padding: 14px 100px 14px 18px;
     width: 100%;
-    border: none;
 }
 
 .btn_submit_modal_subscribe {
@@ -123,8 +118,6 @@ screen and (min-resolution: 2dppx) {
     border-radius: 100px;
     width: 100px;
     height: 45px;
-    font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 1.21;
@@ -133,6 +126,12 @@ screen and (min-resolution: 2dppx) {
     position: absolute;
     right: 0;
 }
+.btn_submit_modal_text_mobile {display: block;
+}
+.btn_submit_modal_text_tabl {display: none;
+}
+
+
 
 /* ====================TABLET==================== */
 @media screen and (min-width: 768px) {
@@ -179,38 +178,32 @@ screen and (min-resolution: 2dppx) {
         line-height: 1.17;
         width: 298px;
     }
-
+    .container_input_btn_modal_subscribe {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        column-gap: 8px;
+        width: 100%;
+    }
+    .mail_form_modal_subscribe {
+        width: 100%;
+    }
+    .modal_subscribe_input {
+        padding: 14px 24px;
+        width: 313px;
+        height: 52px;
+    }
     .modal_subscribe_input::placeholder {
         font-size: 18px;
         line-height: 1.22;
     }
-
-    .container_input_btn_modal_subscribe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 20p;
-        column-gap: 8px;
-        width: 100%;
-        position: static;
-    }
-
-    .mail_form_modal_subscribe {
-        width: 100%;
-    }
-
-    .modal_subscribe_input {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 24px;
-        width: 100%;
-        border: none;
-        height: 52px;
-    }
-
     .btn_submit_modal_subscribe {
-        position: static;
         width: 137px;
         height: 52px;
+        right: 0;
+    }
+    .btn_submit_modal_text_mobile {display: none;
+    }
+    .btn_submit_modal_text_tabl {display: block;
     }
 }
