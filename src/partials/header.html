@@ -46,6 +46,7 @@
       <button
         type="button"
         class="nav_button_open_menu"
+        aria-label="open menu"
         data-mobmenu-modal-open
       >
         <svg class="nav-burger-color" width="28" height="28">
@@ -56,14 +57,14 @@
   </div>
   <div class="header_mobile_menu is-hidden" data-mobmenu-modal>
     <div class="header_mobile_container">
-      <button type="button" class="mobile_menu_button" data-mobmenu-modal-close>
+      <button type="button" aria-label="close menu" class="mobile_menu_button" data-mobmenu-modal-close>
         <svg class="icon_close_head" width="28" height="28">
           <use href="./images/icons.svg#icon-x-close"></use>
         </svg>
       </button>
       <ul class="header_menu_list">
         <li>
-          <a class="header_menu_list_link " href="index.html">Home</a>
+          <a class="header_menu_list_link " href="#home">Home</a>
         </li>
         <li>
           <a class="header_menu_list_link " href="#how_made"

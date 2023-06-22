@@ -7,12 +7,13 @@
     width: 311px;
     height: 471px;
     border-radius: 15px;
+    padding: 32px 24px;
 }
 
 .review_modal_close_btn {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 14px;
+    right: 14px;
     display: flex;
     border: none;
     background-color: transparent;
@@ -26,26 +27,17 @@
 }
 
 .review_modal_title {
-    position: absolute;
-    top: 32px;
-    left: 24px;
     width: 255px;
-    height: 48px;
     color: #111111;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.6px;
+    margin-bottom: 32px;
 }
 
 .review_modal_orange_title_part {
     color: #FD9222;
-}
-
-.review_modal_form {
-    position: absolute;
-    top: 112px;
-    left: 24px;
 }
 
 .review_modal_form_flex_box {
@@ -56,7 +48,6 @@
 }
 
 .review_modal_input_window {
-    width: 263px;
     height: 45px;
     border-color: rgba(64, 64, 64, 0.3);
     border-radius: 8px;
@@ -70,7 +61,6 @@
 }
 
 .review_modal_textarea {
-    width: 263px;
     height: 91px;
     resize: none;
     border-color: rgba(64, 64, 64, 0.3);
@@ -78,6 +68,7 @@
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     padding: 14px 18px;
 }
+
 
 .review_modal_textarea:focus {
     outline: none;
@@ -97,9 +88,8 @@
 
 /* Phone number input form */
 .review_modal_input_phone_container {
-    width: 263px;
+    width: 100%;
     height: 45px;
-    padding: 18px 10px;
     border: 1.5px solid rgba(17, 17, 17, 0.05);
     border-radius: 8px;
     background-color: #FFFFFF;
@@ -107,9 +97,13 @@
     justify-items: center;
     align-items: center;
     gap: 10px;
-
 }
-
+.review_modal_input_directive_numb {
+    font-weight: 500;
+    color: #111111;
+    font-size: 14px;
+    line-height: 17px;
+}
 .review_modal_input_directive_numb::after {
     content: '';
     height: 25px;
@@ -119,7 +113,7 @@
 
 .review_modal_input_tel {
     width: auto;
-    height: 17px;
+    height: 24px;
     border: none;
     padding: 0;
 }
@@ -129,3 +123,47 @@
     border: 1px solid var(--accent_color);
     border-radius: 4px;
 }
+@media screen and (min-width:768px) {
+    .review_modal_window {
+        width: 517px;
+        height: 628px;
+        padding: 40px;
+    }
+    .review_modal_close_btn {
+        right: 24px;
+        top:24px
+    }
+    .review_modal_title {
+        font-size: 24px;
+        line-height: 28px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .review_modal_form_flex_box {
+        gap: 18px;
+    }
+    .review_modal_input_window {
+        height: 66px;
+        padding-left: 24px;
+    }
+    .review_modal_input_phone_container {
+        height: 66px;
+        padding: 0 0 0 24px;
+        gap: 18px;
+    }
+    .review_modal_textarea {height: 137px;
+    }
+    .review_modal_send_btn {width: 117px;height: 45px;
+    }
+    .review_modal_input_ukr_flag_icon {
+        width: 32px;
+        height: 32px;
+    }
+    .review_modal_textarea {
+        padding: 22px 24px;
+    }
+    .review_modal_input_directive_numb {
+        font-size: 18px;
+        line-height: 22px;
+}
+    }

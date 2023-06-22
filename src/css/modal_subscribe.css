@@ -108,6 +108,7 @@ screen and (min-resolution: 2dppx) {
     border-radius: 25px;
     padding: 14px 100px 14px 18px;
     width: 100%;
+    height: 45px;
 }
 
 .btn_submit_modal_subscribe {

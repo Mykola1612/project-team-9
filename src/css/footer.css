@@ -44,7 +44,13 @@ padding-bottom: 14px;
     display: flex;
     flex-direction: column;
     row-gap: 14px;
+}
+.footer-list-link {
     color: var(--primary_text_color);
+}
+.footer-list-link:hover,
+.footer-list-link:focus {
+    color: var(--accent_color);
 }
 
 .footer-icon {
