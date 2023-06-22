@@ -19,7 +19,7 @@
     
     <title>Simply chocolate</title>
     <script type="module" crossorigin src="/project-team-9/assets/index-c6103b63.js"></script>
-    <link rel="stylesheet" href="/project-team-9/assets/index-998b8ba8.css">
+    <link rel="stylesheet" href="/project-team-9/assets/index-9c89b4ae.css">
   </head>
   <body>
     <header id="home" class="header_style">
@@ -128,7 +128,7 @@
       <section class="container section_hero">
   <div class="container_hero">
     <div class="container_width">
-      <h1 class="hero_titel">Buy delicious chocolate</h1>
+      <h1 class="visually-hidden">Buy delicious chocolate</h1>
       <p class="hero_text">
         Treat yourself or a loved one to our finest ingredients for a moment of
         pure delight!
@@ -154,40 +154,58 @@
   </div>
 </section>
 
-      <section class="advantages container">
-    <div class=" div-container">
-        <h2 hidden>hidden text</h2>
+      <section class="advantages">
+  <div class="div-container container">
+    <h2 hidden>hidden text</h2>
     <ul class="list-advantages">
-        <li class="discrabe-list active-link">  
-            <div class="div-advantages-icon"><svg class="advantages-icon" width="32" height="32">
+      <li class="discrabe-list active-link">
+        <div class="div-advantages-icon">
+          <svg class="advantages-icon" width="32" height="32">
             <use href="/project-team-9/assets/icons-994ec612.svg#icon-advantages-chocolate"></use>
-        </svg> 
-    </div>
-            <h3 class="headers-for-advantages">Unsurpassed taste</h3> 
-        <p class="discrabe-for-advantages">Crafted with the finest quality cocoa beans and a dedication to perfection, each bite is a decadent experience that simply cannot be matched. Savor the richness and complexity of our Unsurpassed Taste and discover a new level of chocolate bliss.</p>
-        </li>
-        <li class="discrabe-list active-link">
-            <div class="div-advantages-icon">
-                <svg class="advantages-icon" width="32" height="32">
+          </svg>
+        </div>
+        <h3 class="headers-for-advantages">Unsurpassed taste</h3>
+        <p class="discrabe-for-advantages">
+          Crafted with the finest quality cocoa beans and a dedication to
+          perfection, each bite is a decadent experience that simply cannot be
+          matched. Savor the richness and complexity of our Unsurpassed Taste
+          and discover a new level of chocolate bliss.
+        </p>
+      </li>
+      <li class="discrabe-list active-link">
+        <div class="div-advantages-icon">
+          <svg class="advantages-icon" width="32" height="32">
             <use href="/project-team-9/assets/icons-994ec612.svg#icon-advantages-coin"></use>
-        </svg>
-            </div>
-            <h3 class="headers-for-advantages">Affordable price</h3> 
-            <p class="discrabe-for-advantages">Indulge in high-quality chocolate without breaking the bank with Simply Chocolate's selection of affordable treats. Enjoy mouth-watering truffles and velvety chocolate bars without sacrificing taste or quality. Browse our selection and indulge in affordable luxury today.</p>
-        </li>
+          </svg>
+        </div>
+        <h3 class="headers-for-advantages">Affordable price</h3>
+        <p class="discrabe-for-advantages">
+          Indulge in high-quality chocolate without breaking the bank with
+          Simply Chocolate's selection of affordable treats. Enjoy
+          mouth-watering truffles and velvety chocolate bars without sacrificing
+          taste or quality. Browse our selection and indulge in affordable
+          luxury today.
+        </p>
+      </li>
 
-        <li class="discrabe-list-size">
-            <div class="div-advantages-icon">
-                <svg class="advantages-icon" width="32" height="32">
-                <use href="/project-team-9/assets/icons-994ec612.svg#icon-advantages-spoon"></use>
-            </svg>
-            </div>
-            <h3 class="headers-for-advantages">Own production</h3> 
-        <p class="discrabe-for-advantages">We take pride in our own production process, ensuring that every step is carefully crafted to perfection. From selecting the finest ingredients to handcrafting each piece, our attention to detail is evident in every bite.</p>
-    </li>
+      <li class="discrabe-list-size">
+        <div class="div-advantages-icon">
+          <svg class="advantages-icon" width="32" height="32">
+            <use href="/project-team-9/assets/icons-994ec612.svg#icon-advantages-spoon"></use>
+          </svg>
+        </div>
+        <h3 class="headers-for-advantages">Own production</h3>
+        <p class="discrabe-for-advantages">
+          We take pride in our own production process, ensuring that every step
+          is carefully crafted to perfection. From selecting the finest
+          ingredients to handcrafting each piece, our attention to detail is
+          evident in every bite.
+        </p>
+      </li>
     </ul>
-    </div>
-        </section>
+  </div>
+</section>
+
       <section class="section-components">
   <div class="components-container container">
     <h2 class="components-header">
@@ -824,110 +842,129 @@
 </section>
 
       <div class="backdrop is-hidden" data-first-modal>
-  <div class="order-modal-mobile">
-    <button type="button" class="order-close">
-      <svg
-        class="close-svg"
-        width="16"
-        height="16"
-        aria-label="close"
-        data-first-modal-close
-      >
-        <use href="/project-team-9/assets/icons-994ec612.svg#close"></use>
+  <div class="bn_modal">
+    <button type="button" class="bn_close_btn" data-first-modal-close>
+      <svg width="24" height="24" class="bn_close_svg">
+        <use href="../images/icons.svg#icon-x-close"></use>
       </svg>
     </button>
-    <a href="#" class="modal-logo"><span class="logo-orange">BUY</span> NOW</a>
-    <div class="chocolate-choice">
-      <ul class="company-product-list">
-        <li class="company-product-1">
-          <div class="chocolate-img-1">
-            <button type="button" class="choc-btn">100g</button>
+    <h1 class="bn_modal_header">
+      buy <span class="bn_modal_header2">now</span>
+    </h1>
+    <ul class="bn_card_list">
+      <li class="bn_card">
+        <img
+          class="bn_img"
+          srcset="/project-team-9/assets/image1mob-edb5ac25.jpg 1x, /project-team-9/assets/image1mob@2x-8f7c763c.jpg 2x"
+          src="/project-team-9/assets/image1mob-edb5ac25.jpg"
+          alt="choco1"
+        />
+        <button type="button" class="bn_weight_btn">100 g</button>
+      </li>
+      <li class="bn_card">
+        <img
+          class="bn_img"
+          srcset="/project-team-9/assets/image2mob-de2cd4f6.jpg 1x, /project-team-9/assets/image2mob@2x-ec55a451.jpg 2x"
+          src="./images/our_products/image2mob.jpg"
+          alt="choco2"
+        />
+        <button type="button" class="bn_weight_btn">200 g</button>
+      </li>
+      <li class="bn_card">
+        <img
+          class="bn_img"
+          srcset="/project-team-9/assets/image3mob-8e3799e8.jpg 1x, /project-team-9/assets/image3mob@2x-3df68bb9.jpg 2x"
+          src="./images/our_products/image3mob.jpg"
+          alt="choco3"
+        />
+        <button type="button" class="bn_weight_btn">300 g</button>
+      </li>
+    </ul>
+    <form class="bn_form" autocomplete="on" novalidate>
+      <div class="bn_form_block">
+        <label for="user-name" class="bn_form_block_name"
+          >Personal information</label
+        >
+        <div class="bn_input_block">
+          <input
+            id="user-name"
+            class="bn_input"
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            autofocus
+            required
+          />
+          <input
+            id="user-name"
+            class="bn_input"
+            type="text"
+            name="user-surname"
+            placeholder="Surname"
+            required
+          />
+        </div>
+      </div>
+      <div class="bn_form_block">
+        <label for="mail" class="bn_form_block_name">Email</label>
+        <div class="bn_input_block">
+          <input
+            id="mail"
+            class="bn_input"
+            type="email"
+            name="Email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+      </div>
+      <div class="bn_form_block">
+        <label for="phone" class="bn_form_block_name">Phone</label>
+        <div class="bn_input_block">
+          <div class="bn_ua">
+            <svg class="bn_ua_svg" width="24" height="18">
+              <use href="/project-team-9/assets/icons-994ec612.svg#icon-modal-ukraine"></use>
+            </svg>
+            <p class="bn_ua_phone">+380</p>
           </div>
-        </li>
-        <li class="company-product-2">
-          <div class="chocolate-img-2">
-            <button type="button" class="choc-btn">200g</button>
-          </div>
-        </li>
-        <li class="company-product-3">
-          <div class="chocolate-img-3">
-            <button type="button" class="choc-btn">300g</button>
-          </div>
-        </li>
-      </ul>
-    </div>
-    <div class="personal-information">
-      <p class="input-p">Personal information</p>
-      <input
-        id="user_name"
-        type="text"
-        name="user_name"
-        class="name-input"
-        minlength="3"
-        required
-        pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
-        placeholder="Name"
-      />
-      <input
-        id="user_surname"
-        type="text"
-        name="user_surname"
-        class="surname-input"
-        minlength="3"
-        required
-        pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
-        placeholder="Surname"
-      />
-    </div>
-    <div class="email-input-form">
-      <p class="input-p">Email</p>
-      <input
-        id="user-email"
-        type="email"
-        class="email-input"
-        name="Email"
-        required
-        placeholder="Enter your email"
-      />
-    </div>
-    <div class="phone-input-form">
-      <p class="input-p">Phone number</p>
-      <input
-        id="user-phone"
-        type="tel"
-        class="phone-input"
-        name="Phone"
-        required
-        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-        title="XXX-XXX-XX-XX"
-        placeholder="XXX-XXX-XX-XX"
-      />
-    </div>
-    <div class="payment-form">
-      <p class="input-p">Card number</p>
-      <input
-        name="card-number"
-        id="user-card"
-        type="text"
-        class="card-input"
-        required
-        pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"
-        title="XXXX-XXXX-XXXX-XXXX"
-        placeholder="XXXX-XXXX-XXXX-XXXX"
-      />
-    </div>
-    <div class="comment-form">
-      <p class="input-p">Your comments</p>
-      <textarea
-        name="user-comment"
-        id="user-comment"
-        class="comment-input"
-        placeholder="Text input"
-      ></textarea>
-    </div>
-    <div class="submit">
-      <button type="button" class="submit-btn">Submit</button>
-    </div>
+          <input
+            id="phone"
+            class="bn_input_phone"
+            type="tel"
+            name="Phone"
+            placeholder="Enter your phone"
+            required
+          />
+        </div>
+      </div>
+      <div class="bn_form_block">
+        <label for="bank_card" class="bn_form_block_name">Card number</label>
+        <div class="bn_input_block">
+          <input
+            id="bank_card"
+            class="bn_input"
+            type="tel"
+            name="card"
+            placeholder="Enter card"
+            required
+          />
+          <svg class="bn_card_svg" width="32" height="21">
+            <use href="../images/icons.svg#icon-master-card"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="bn_form_block">
+        <label for="user-comment" class="bn_form_block_name">Comment</label>
+        <textarea
+          id="user-comment"
+          class="bn_input_comment"
+          name="user-comment"
+          rows="3"
+          placeholder="Enter input"
+        ></textarea>
+      </div>
+      <button class="bn_send-button" type="submit">Send</button>
+    </form>
   </div>
 </div>
 
