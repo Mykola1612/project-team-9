@@ -1,38 +1,87 @@
 <div class="backdrop is-hidden" data-first-modal>
   <div class="bn_modal">
-    <button type="button" class="bn_close_btn" data-modal-close>
+    <button type="button" class="bn_close_btn" data-first-modal-close>
       <svg width="24" height="24" class="bn_close_svg">
         <use href="../images/icons.svg#icon-x-close"></use>
       </svg>
     </button>
-    <h1 class="bn_modal_header">buy <span class="bn_modal_header2">now</span></h1>
+    <h1 class="bn_modal_header">
+      buy <span class="bn_modal_header2">now</span>
+    </h1>
     <ul class="bn_card_list">
       <li class="bn_card">
-        <img class="bn_img" srcset="./images/buy_now/image1mob.jpg 1x , ./images/buy_now/image1mob@2x.jpg 2x"
-          src="./images/buy_now/image1mob.jpg" alt="choco1">
+        <img
+          class="bn_img"
+          srcset="
+            ./images/buy_now/image1mob.jpg    1x,
+            ./images/buy_now/image1mob@2x.jpg 2x
+          "
+          src="./images/buy_now/image1mob.jpg"
+          alt="choco1"
+        />
         <button type="button" class="bn_weight_btn">100 g</button>
       </li>
       <li class="bn_card">
-        <img class="bn_img" srcset="./images/buy_now/image2mob.jpg 1x , ./images/buy_now/image2mob@2x.jpg 2x" src="./images/our_products/image2mob.jpg" alt="choco2">
+        <img
+          class="bn_img"
+          srcset="
+            ./images/buy_now/image2mob.jpg    1x,
+            ./images/buy_now/image2mob@2x.jpg 2x
+          "
+          src="./images/our_products/image2mob.jpg"
+          alt="choco2"
+        />
         <button type="button" class="bn_weight_btn">200 g</button>
       </li>
       <li class="bn_card">
-        <img class="bn_img" srcset="./images/buy_now/image3mob.jpg 1x , ./images/buy_now/image3mob@2x.jpg 2x" src="./images/our_products/image3mob.jpg" alt="choco3">
+        <img
+          class="bn_img"
+          srcset="
+            ./images/buy_now/image3mob.jpg    1x,
+            ./images/buy_now/image3mob@2x.jpg 2x
+          "
+          src="./images/our_products/image3mob.jpg"
+          alt="choco3"
+        />
         <button type="button" class="bn_weight_btn">300 g</button>
       </li>
     </ul>
     <form class="bn_form" autocomplete="on" novalidate>
       <div class="bn_form_block">
-        <label for="user-name" class="bn_form_block_name">Personal information</label>
+        <label for="user-name" class="bn_form_block_name"
+          >Personal information</label
+        >
         <div class="bn_input_block">
-          <input id="user-name" class="bn_input" type="text" name="user-name" placeholder="Name" autofocus required />
-          <input id="user-name" class="bn_input" type="text" name="user-surname" placeholder="Surname" required />
+          <input
+            id="user-name"
+            class="bn_input"
+            type="text"
+            name="user-name"
+            placeholder="Name"
+            autofocus
+            required
+          />
+          <input
+            id="user-name"
+            class="bn_input"
+            type="text"
+            name="user-surname"
+            placeholder="Surname"
+            required
+          />
         </div>
       </div>
       <div class="bn_form_block">
         <label for="mail" class="bn_form_block_name">Email</label>
         <div class="bn_input_block">
-          <input id="mail" class="bn_input" type="email" name="Email" placeholder="Enter your email" required />
+          <input
+            id="mail"
+            class="bn_input"
+            type="email"
+            name="Email"
+            placeholder="Enter your email"
+            required
+          />
         </div>
       </div>
       <div class="bn_form_block">
@@ -44,13 +93,27 @@
             </svg>
             <p class="bn_ua_phone">+380</p>
           </div>
-          <input id="phone" class="bn_input_phone" type="tel" name="Phone" placeholder="Enter your phone" required />
+          <input
+            id="phone"
+            class="bn_input_phone"
+            type="tel"
+            name="Phone"
+            placeholder="Enter your phone"
+            required
+          />
         </div>
       </div>
       <div class="bn_form_block">
         <label for="bank_card" class="bn_form_block_name">Card number</label>
         <div class="bn_input_block">
-          <input id="bank_card" class="bn_input" type="tel" name="card" placeholder="Enter card" required />
+          <input
+            id="bank_card"
+            class="bn_input"
+            type="tel"
+            name="card"
+            placeholder="Enter card"
+            required
+          />
           <svg class="bn_card_svg" width="32" height="21">
             <use href="../images/icons.svg#icon-master-card"></use>
           </svg>
@@ -58,8 +121,13 @@
       </div>
       <div class="bn_form_block">
         <label for="user-comment" class="bn_form_block_name">Comment</label>
-        <textarea id="user-comment" class="bn_input_comment" name="user-comment" rows="3"
-          placeholder="Enter input"></textarea>
+        <textarea
+          id="user-comment"
+          class="bn_input_comment"
+          name="user-comment"
+          rows="3"
+          placeholder="Enter input"
+        ></textarea>
       </div>
       <button class="bn_send-button" type="submit">Send</button>
     </form>
