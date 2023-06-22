@@ -124,6 +124,6 @@
 
 .review_modal_input_tel:focus {
     outline: none;
-    border: 1px solid rgba(253, 146, 34, 1);
+    border: 1px solid var(--accent_color);
     border-radius: 4px;
 }
