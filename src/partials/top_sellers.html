@@ -1,60 +1,58 @@
 <!-- TOP SELLERS -->
-<section class="top_sellers_section container" id="top_sell">
-  <h2 class="top_sellers_title">
-    <span class="top_sellers_black_title_part">TOP</span> SELLERS
-  </h2>
-  <!-- IMAGES -->
-  <ul class="top_sellers_list">
-    <!-- First  Image -->
-    <li class="top_sellers_list_item">
-      <picture>
-        <!-- phone -->
-        <source
-          srcset="
-            ./images/top_sellers/1x/choco_phone_1.jpg    1x,
-            ./images/top_sellers/2x/choco_phone_1@2x.jpg 2x
-          "
-          media="(min-width: 375px)"
-        />
+<section class="top_sellers_section" id="top_sell">
+  <div class="container">
+    <h2 class="top_sellers_title">
+      <span class="top_sellers_black_title_part">TOP</span> SELLERS
+    </h2>
+    <!-- IMAGES -->
+    <ul class="top_sellers_list">
+      <!-- First  Image -->
+      <li class="top_sellers_list_item">
+        <picture>
+          <!-- phone -->
+          <source
+            srcset="
+              ./images/top_sellers/1x/choco_phone_1.jpg    1x,
+              ./images/top_sellers/2x/choco_phone_1@2x.jpg 2x
+            "
+            media="(min-width: 375px)"
+          />
 
-        <!-- tablet -->
-        <source
-          srcset="
-            ./images/top_sellers/1x/choco_tablet_1.jpg    1x,
-            ./images/top_sellers/2x/choco_tablet_1@2x.jpg 2x
-          "
-          media="(min-width: 768px)"
-        />
+          <!-- tablet -->
+          <source
+            srcset="
+              ./images/top_sellers/1x/choco_tablet_1.jpg    1x,
+              ./images/top_sellers/2x/choco_tablet_1@2x.jpg 2x
+            "
+            media="(min-width: 768px)"
+          />
 
-        <!-- desktop -->
-        <source
-          srcset="
-            ./images/top_sellers/1x/choco_desktop_1.jpg    1x,
-            ./images/top_sellers/2x/choco_desktop_1@2x.jpg 2x
-          "
-          media="(min-width: 1200px)"
-        />
-        <img
-          class="top_sellers_img"
-          src="./images/top_sellers/1x/choco_desktop_1.jpg"
-          alt="Choco with nuts"
-          width="335px"
-        />
-      </picture>
+          <!-- desktop -->
+          <source
+            srcset="
+              ./images/top_sellers/1x/choco_desktop_1.jpg    1x,
+              ./images/top_sellers/2x/choco_desktop_1@2x.jpg 2x
+            "
+            media="(min-width: 1200px)"
+          />
+          <img
+            class="top_sellers_img"
+            src="./images/top_sellers/1x/choco_desktop_1.jpg"
+            alt="Choco with nuts"
+            width="335px"
+          />
+        </picture>
 
-      <!-- Description -->
-      <p class="top_sellers_desc">
-        Crazy enough chocolate originates from a bean just like the coffee bean
-        called Cacao. Cacao has been around for thousands of years and was first
-        discovered by the Native American tribe called the Mayans.
-      </p>
-    </li>
+        <!-- Mobile Description -->
+        <p class="top_sellers_mobile_desc">
+          Crazy enough chocolate originates from a bean just like the coffee
+          bean called Cacao. Cacao has been around for thousands of years and
+          was first discovered by the Native American tribe called the Mayans.
+        </p>
+      </li>
 
-    <li
-      class="top_sellers_list_item top_sellers_list_second_item_width_specific"
-    >
-      <div class="top_sellers_pic_flex_box">
-        <!-- Second Image -->
+      <!-- Second Image -->
+      <li class="top_sellers_list_item">
         <picture>
           <!-- phone -->
           <source
@@ -89,8 +87,10 @@
             width="335px"
           />
         </picture>
+      </li>
 
-        <!-- Third Image -->
+      <!-- Third Image -->
+      <li class="top_sellers_list_item">
         <picture class="top_sellers_third_img">
           <!-- desktop -->
           <source
@@ -106,10 +106,26 @@
             alt="Dark chocolate"
           />
         </picture>
-      </div>
-      <button class="top_sellers_button" type="button" data-first-modal-open>
-        Buy now
-      </button>
-    </li>
-  </ul>
+      </li>
+    </ul>
+
+    <!-- Content -->
+    <ul class="top_sellers_content_list">
+      <!-- Tablet/Desktop Description -->
+      <li class="top_sellers_content_list_item">
+        <p class="top_sellers_desc">
+          Crazy enough chocolate originates from a bean just like the coffee
+          bean called Cacao. Cacao has been around for thousands of years and
+          was first discovered by the Native American tribe called the Mayans.
+        </p>
+      </li>
+
+      <!-- Buy now button -->
+      <li class="top_sellers_content_list_item">
+        <button class="top_sellers_button" type="button" data-first-modal-open>
+          Buy now
+        </button>
+      </li>
+    </ul>
+  </div>
 </section>
